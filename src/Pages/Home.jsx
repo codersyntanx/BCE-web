@@ -148,7 +148,7 @@ function Home () {
               <div style={{ marginLeft: "40px" }}>
                 <span style={{fontSize:"10px"}} className="customtexttag">The best insurance companies are with us</span>
                 <h5 className="cente"><b>How our platform works</b></h5>
-                <img className="customtext" src={rectangal} alt="image" />
+                <img className="customtextce" src={rectangal} alt="image" />
 
                 <p style={{ fontSize: "small", color: "grey" }}>Watch the video and understand why<br></br> thousands of people are already using our<br></br> services and are protected</p>
               </div>
