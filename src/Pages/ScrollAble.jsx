@@ -112,7 +112,7 @@ const ScrollAble = () => {
         </div>
         <div className="col-md-5">
           {showFirstContent ? (
-            <img width="100%" height="100%" src={finall} alt="care" />
+            <img width="100%" src={finall} alt="care" />
           ) : (
             <img width="100%" height="100%" src={smile} alt="care" />
           )}
