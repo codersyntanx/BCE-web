@@ -167,7 +167,12 @@ border-radius: 10px;
     .portfolio {
       display: none;
     }
-   
+    .customtext{
+      margin-left: 55px;
+    }
+    .customtexttag{
+      margin-left: 29px;
+    }
   .cente{
     font-size: 25px;
     text-align: center;
