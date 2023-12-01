@@ -92,7 +92,7 @@ border-radius: 10px;
   border:2px solid rgb(191, 190, 190);
   border-bottom:5px solid black;
   border-radius:5px;
-  height: auto;
+  height: 400px;
 }
 .homebutton{
     font-size: 10px;
@@ -222,6 +222,6 @@ border-radius: 10px;
   }
 
  .slider-item{
-  height: 350px;
+  height: auto;
 
  }
