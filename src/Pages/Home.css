@@ -1,0 +1,222 @@
+.herosection{
+    background-image: url(../Assets/images/world\ blob.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.homebutton{
+    background-color: inherit;
+    border: 2px solid rgb(199, 199, 199);
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.herosection h1{
+    font-weight: bold;
+}
+.partner{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.newpart{
+    line-height: 0.1;
+}
+.homebody{
+    background-color:rgb(235, 244, 252)
+}
+.trucking{
+background-color: #04192c;
+color:white;
+margin-top: 100px;
+}
+.imgcontainer{
+    position: relative;
+    background-image: url(../Assets/images/truckman\ \ \(1\).png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.phoneboxcon{
+    display: flex;
+}
+.phonebox{
+    background-color: rgb(18, 18, 44);
+width: 240px;
+padding-left: 10px;
+padding-bottom: 5px;
+padding-top: 5px;
+border: 1px solid rgb(54, 54, 102);
+border-radius: 10px;
+}
+.phonebox2{
+    background-color: rgb(18, 18, 44);
+    width: 240px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid rgb(54, 54, 102);
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.leftbutton:hover{
+    background-color: black;
+    color: white;
+}
+.leftbutton{
+    background-color:white;
+    border-radius: 50%;
+    border: 2px solid black;
+    height: auto;
+    width: 35px;
+    height: 35px;
+}
+.rightbutton{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+}
+.educate{
+   border:2px solid rgb(191, 190, 190);
+   border-bottom:5px solid black;
+   border-radius:5px;
+   
+
+}
+.security{
+  font-size: small;
+  margin-left: -57px;
+}
+.smallscreen{
+  border:2px solid rgb(191, 190, 190);
+  border-bottom:5px solid black;
+  border-radius:5px;
+  height: auto;
+}
+.homebutton{
+    font-size: 10px;
+}
+@media only screen and (max-width: 768px){
+    .phoneboxcon{
+        display: block;
+    }
+    .phonebox2{
+        margin-left: 0;
+    }
+    .textareaslide{
+        margin-left: 0px;
+      }
+    .maincard2{
+        margin-left: -20px;
+    }
+ .homebutton{
+    width: 50%;
+    font-size: 8px;
+ }  
+
+
+
+
+}
+
+
+
+
+
+
+  .clientimage{
+    right: 40%;
+  }
+  .mainscroll {
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    height: 240px;
+    width: 5px;
+    transition: top 1s ease; /* Add transition for the 'top' property */
+  }
+  
+  .mainpositionbottom,
+  .mainpositiontop {
+    position: relative;
+    width: 5px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .mainpositionbottom {
+    top: 50%;
+    height: 50%;
+  }
+  
+  .mainpositiontop {
+    top: 0;
+    height: 50%;
+  }
+  .scroller{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  /* Media Query styles */
+  @media only screen and (max-width: 600px) {
+    .homebuttons,
+    .herotext,
+    .portfolio {
+      display: none;
+    }
+   
+  .cente{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 35px;
+  }
+    .mainscroll {
+      width: 90%;
+      height: 5px;
+    }
+    .clientimage{
+      right: 90%;
+    }
+    .mainpositionbottom {
+      right: 49%;
+      width: 50%;
+      background-color: black;
+      height: 5px;
+   
+    }
+    .security{
+      margin-left: 0px;
+    }
+    .mainpositiontop {
+      right: 0;
+      background-color: black; 
+      width: 50%;
+      height: 5px;
+      position: relative;
+      bottom: 10px;
+    }
+  
+    .scroller{
+        display: flex;
+        flex-direction: row;
+        direction: rtl;
+        margin-right: 20px;
+        
+      }
+.scroller .rightbutton img{
+  
+    position: relative;
+    left: 5px;
+}
+.rightbutton{
+  margin-right: 3px;
+}
+  }
+
+ .slider-item{
+  height: 350px;
+
+ }

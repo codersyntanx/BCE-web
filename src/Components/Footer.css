@@ -1,0 +1,53 @@
+
+
+.maincontainer{
+    height: auto;
+ list-style: none;
+ background-image:url(../Assets/images/background.png) ;
+ padding: 30px;
+}
+.bolanos{
+    color: white;
+    font-size:xx-large;
+    position: relative;
+    bottom: 38px;
+}
+.commercial{
+    font-size: x-small;
+    color: white;
+    position: relative;
+    bottom: 42px;
+}
+.linking{
+    text-decoration: none;
+    color: white;
+}
+.list-unstyled{
+    line-height: 0.5;
+}
+
+
+@media only screen and (max-width: 600px) {
+.bolanoscomercial{
+    margin-top: 30px;
+}
+    .footerlogo{
+        display: none;
+    }
+    .signupcol{
+        display: none;
+    }
+    .smalltext{
+        font-size: large;
+    }
+    .services{
+        margin-right: 30px;
+    }
+    .maincontainer{
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .topmar {
+        margin-top: 40px;
+      }
+}

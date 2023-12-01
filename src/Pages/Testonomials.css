@@ -1,0 +1,13 @@
+.textareaslide{
+    margin-left: 55%;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+   .textareaslide{
+    margin-left: 5%;
+   }
+  }

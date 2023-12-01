@@ -1,0 +1,154 @@
+.mainlogin{
+    overflow-x: hidden;
+}
+row{
+    height: 100%;
+}
+.loginscreen{
+    background-color:#F0F8FF;
+}
+
+.centeralign{
+    margin: auto;
+    width: 70%;
+}
+.account{
+    font-size: 27px;
+    margin-bottom: -3px;
+}
+.account span{
+    font-size: small;
+    color: rgb(208, 209, 209);
+}
+.signupinputs{
+    background-color: rgb(223, 226, 225);
+}
+.maincard input:focus{
+    box-shadow: none;
+    border: 2px solid black;
+}
+.white-truck {
+    background-color: white;
+    width: 35%;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 20%;
+    right: 80%;
+}
+.white-protect {
+    background-color: white;
+    width: 35%;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.loginlin{
+    color: black;
+    width: 34%;
+}
+.loginlogo{
+    margin-top: 50px;
+}
+
+.typo{
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+text-transform: capitalize;
+}
+.typo span{
+    font-size: 38px;
+}
+.white-truck p{
+    font-size: small;
+    font-weight: bold;
+}
+.white-protect p{
+    font-size: small;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    .white-truck {
+        width: 35%;
+        right: 70%;
+        font-size: small;
+        font-weight: 300;
+    }
+    .white-protect {
+        width: 35%;
+        right: 70%;
+        font-size: small;
+        font-weight: 300;
+    }
+    .centeralign{
+    position: relative;
+    top: 10%;
+    }
+    .form{
+        margin-left: 20px;
+    }
+    .account{
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .rightside {
+        display: none;
+    }
+    .account{
+        text-align: left;
+
+        
+    }
+    .loginlogo{
+        width: 150px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .access{
+       margin-left: -65px;
+       
+    }
+   .loginscreen{
+    height: 130vh;
+    background-color: white;
+   }
+    .centeralign span{
+        text-align: left;
+
+    }
+    .inputss{
+        margin-top: 40px;
+    }
+    .signupinputs{
+        margin-top: 30px;
+    }
+    .loginlin{
+        color: black;
+        width: 20%;
+    }
+    .forget{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .loginbtn{
+        padding: 20px;
+    }
+    .newuser{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
