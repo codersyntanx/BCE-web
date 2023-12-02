@@ -57,14 +57,14 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style={{ backgroundColor: "white" }}
+          
             onClick={handleMenuClick}
           >
             {
               menuClicked ? (
                 <i class="fa-solid fa-xmark"></i>
               ) : (
-                <i class="fa-solid fa-bars"></i>
+                <i style={{color:"white"}} class="fa-solid fa-bars"></i>
               )
             }
           </button>

@@ -6,9 +6,20 @@
   color: white;
   margin-top: 40px;
   width: 85%;
-  margin-left: 50px;
-}
 
+}
+.rightbutton{
+  color: white;
+}
+.leftbutton:hover{
+background-color: black;
+}
+.leftbutton{
+  background-color:inherit;
+  }
+.rightbutton:hover{
+  background-color: black;
+  }
 .homebutton {
   background-color: inherit;
   border: 2px solid rgb(199, 199, 199);
@@ -88,7 +99,10 @@
 }
 
 .leftbutton {
-  background-color: white;
+ background-image: url(../Assets/images/CaretDown.png);
+ background-position: center;
+ background-size: 20px;
+ background-repeat: no-repeat;
   border-radius: 50%;
   border: 2px solid black;
   height: auto;

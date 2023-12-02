@@ -40,7 +40,7 @@ function Contactus() {
 
               </div>
               <div className="col-md-6">
-                <div class="contactusfor rounded" style={{ backgroundColor: "white", position: "relative", top: "60px" }} >
+                <div class="contactusfor " style={{ backgroundColor: "white", position: "relative", top: "60px" }} >
 
                   <h5 className="text-dark"><b>Contact us</b></h5>
 

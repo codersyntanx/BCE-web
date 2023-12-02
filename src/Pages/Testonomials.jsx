@@ -181,8 +181,8 @@ class Testonomials extends Component {
                   </button>
 
 
-                  <button className="btn leftbutton mx-2 " style={{ backgroundColor: "black", color: "white" }} onClick={this.next} >
-                    <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={leftarrow} alt="leftarrow" width="20px" />            </button>
+                  <button className="btn leftbutton mx-2 " style={{  color: "white" }} onClick={this.next} >
+                            </button>
 
                 </div>
                 <div className="col-md-1"></div>
