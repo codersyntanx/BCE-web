@@ -255,7 +255,7 @@
 
 @media only screen and (max-width: 600px) {
   .smallscreenpadding{
-    padding-top: 200px !important;
+    padding-top: 220px !important;
   }
   .listitem ul {
     padding: 0px 15px;
