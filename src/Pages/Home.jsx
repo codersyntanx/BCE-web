@@ -26,7 +26,7 @@ function Home () {
  
   return (
     <>
-      <div className="container herosection pt-5 " style={{width:"85%"}}>
+      <div className="container herosection  " >
         <div className="row">
           <div className="col-md-5">
             <div className="homebuttons">
@@ -38,12 +38,12 @@ function Home () {
             </buton>
             </div>
            
-            <h2 className="mt-4">
+            <h2 className="mt-4 headertext">
               <b>The Easiest Way To Buy<br></br> And Manage Trucking Insurance</b>
              
             </h2>
             <p className="herotext" style={{ fontSize: "small", color: "grey" }}>Talk to our experts and get all your questions<br></br> answered and get a no-obligation quote</p>
-            <img src={rectangal} alt="image" width="50px" />
+            <img className="lineimage" src={rectangal} alt="image" width="50px" />
 
 
             <div className="container portfolio">
@@ -70,8 +70,8 @@ function Home () {
           </div>
           <div className="col-md-2"></div>
          
-          <div className="col-md-5 contactfoamer col-sm-12">
-                  <div class="p-3 px-4 rounded"style={{backgroundColor:"white",position:"relative",top:"5%", boxShadow:"0 2px 4px rgba(0,0,0,.1)"}} >
+          <div className="col-md-5  col-sm-12">
+                  <div class="p-3 px-4 contactfoamer"style={{backgroundColor:"white",position:"relative",top:"5%", boxShadow:"0 2px 4px rgba(0,0,0,.1)"}} >
     <h5 className="text-dark"><b>Get a quote right now</b></h5>
     <span style={{color:"grey"}}>Sign up and our team will contact you to provide your quote</span>
  
@@ -80,8 +80,8 @@ function Home () {
                  <input className="form-control mb-3 signupinputs" type="text" placeholder="E-mail" aria-label="E-mail"/>
                  <input className="form-control mb-3 signupinputs" type="number" placeholder="Phone number" aria-label="default input example"/>
 
-                 <button className="btn btn-dark" style={{width:"100%"}}>I want to be a customer</button>
-                 <p className=" mt-3 smalltext">By submitting your data, you authorize us to contact you, To find out more, see our <u>Privacy policy</u></p>
+                 <button className="btn btn-dark customerbutton" style={{width:"100%"}}>I want to be a customer</button>
+                 <p className=" mt-3 conditiontext">By submitting your data, you authorize us to contact you, To find out more, see our <u>Privacy policy</u></p>
 
                  </div>
                  <div className="d-flex align-items-center mt-2 ">

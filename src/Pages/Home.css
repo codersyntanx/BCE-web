@@ -4,6 +4,8 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    margin-top: 50px;
+    width: 85%;
 }
 .homebutton{
     background-color: inherit;
@@ -135,8 +137,14 @@ border-radius: 10px;
     width: 5px;
     transition: top 1s ease; /* Add transition for the 'top' property */
   }
-  
-  .mainpositionbottom,
+
+  .mainpositionbottom {
+    position: relative;
+    width: 5px;
+    background-color: black;
+    border-radius: 10px;
+    
+  }
   .mainpositiontop {
     position: relative;
     width: 5px;
@@ -159,7 +167,23 @@ border-radius: 10px;
     flex-direction: column;
 
   }
-
+  .contactfoamer input:focus{
+    box-shadow: none;
+    border: 2px solid black;
+}
+.conditiontext{
+  font-size: 14px;
+  color: black;
+}
+.customerbutton{
+  padding: 16px;
+}
+.signupinputs{
+  height: 60px;
+}
+.contactfoamer{
+  border-radius: 20px;
+}
   /* Media Query styles */
   @media only screen and (max-width: 600px) {
     .homebuttons,
@@ -167,8 +191,25 @@ border-radius: 10px;
     .portfolio {
       display: none;
     }
+ 
+    .lineimage{
+      display: none;
+    }
+   
+  
+    .herosection{
+      margin-top: 0px;
+      width: 100%;
+    height: 550;   
+    }
+    .sponsor{
+      margin-top: 300px;
+    }
     .customtextce{
       margin-left: 55px;
+    }
+    .headertext{
+      font-size: 32px;
     }
     .customtexttag{
       margin-left: 29px;
@@ -190,6 +231,7 @@ border-radius: 10px;
       width: 50%;
       background-color: black;
       height: 5px;
+      top: 10%;
    
     }
     .security{

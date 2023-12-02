@@ -29,3 +29,11 @@ line-height: normal;
     margin: auto;
     
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        width: 100%;
+        margin: auto;
+        
+    }
+}
