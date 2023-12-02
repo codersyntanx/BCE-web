@@ -1,53 +1,61 @@
-
-
-.maincontainer{
+.maincontainer {
     height: auto;
- list-style: none;
- background-image:url(../Assets/images/background.png) ;
- padding: 30px;
+    list-style: none;
+    background-image: url(../Assets/images/background.png);
+    padding: 30px;
 }
-.bolanos{
+
+.bolanos {
     color: white;
-    font-size:xx-large;
+    font-size: xx-large;
     position: relative;
     bottom: 38px;
 }
-.commercial{
+
+.commercial {
     font-size: x-small;
     color: white;
     position: relative;
     bottom: 42px;
 }
-.linking{
+
+.linking {
     text-decoration: none;
     color: white;
 }
-.list-unstyled{
+
+.list-unstyled {
     line-height: 0.5;
 }
 
 
 @media only screen and (max-width: 600px) {
-.bolanoscomercial{
-    margin-top: 30px;
-}
-    .footerlogo{
+    .bolanoscomercial {
+        margin-top: 30px;
+    }
+
+    .footerlogo {
         display: none;
     }
-    .signupcol{
+
+    .signupcol {
         display: none;
     }
-    .smalltext{
+
+    .smalltext {
         font-size: large;
     }
-    .services{
+
+    .services {
         margin-right: 30px;
     }
-    .maincontainer{
+
+    .maincontainer {
         padding: 0px;
         padding-top: 20px;
     }
+
     .topmar {
         margin-top: 40px;
-      }
+    }
 }

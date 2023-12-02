@@ -3,33 +3,33 @@ import logo from "../Assets/images/Brand-logo.png"
 import busy from "../Assets/images/WhatsApp Image 2023-11-24 at 02.55.39_96707ce0.jpg"
 import { Link } from "react-router-dom"
 
-function Signup(){
-    return(
+function Signup() {
+    return (
         <>
-        <div className="row" >
-            <div className="col-md-6 leftsider ">
-                <div className="centeralign centerdiv">
-                    <Link to="/">
-                <img className="mx-auto signuplogo" src={logo}  alt="bce-logo"/></Link>
-                 <div className="mt-4">
-<p className="account" ><b>Sign up account</b></p>
-                <span className="access">Fill out follwing details</span>
-                 </div>
-                 <div className="form mt-4 maincard mx-auto" >
-                 <input className="form-control mb-3 signupinputs" type="text" placeholder="Your Name" aria-label="Your Name"/>
-                 <input className="form-control mb-3 signupinputs" type="text" placeholder="E-mail" aria-label="E-mail"/>
-                 <input className="form-control mb-3 signupinputs" type="password" placeholder="Password" aria-label="default input example"/>
-                 <input className="form-control mb-3 signupinputs" type="password" placeholder="Confirm-Password" aria-label="default input example"/>
-                 <button className="btn btn-dark sugnupbtn" style={{width:"100%"}}>Register</button>
-                 <p className="text-center mt-3">Already a user? <b>Login</b></p>
+            <div className="row" >
+                <div className="col-md-6 leftsider ">
+                    <div className="centeralign centerdiv">
+                        <Link to="/">
+                            <img className="mx-auto signuplogo" src={logo} alt="bce-logo" /></Link>
+                        <div className="mt-4">
+                            <p className="account" ><b>Sign up account</b></p>
+                            <span className="access">Fill out follwing details</span>
+                        </div>
+                        <div className="form mt-4 maincard mx-auto" >
+                            <input className="form-control mb-3 signupinputs" type="text" placeholder="Your Name" aria-label="Your Name" />
+                            <input className="form-control mb-3 signupinputs" type="text" placeholder="E-mail" aria-label="E-mail" />
+                            <input className="form-control mb-3 signupinputs" type="password" placeholder="Password" aria-label="default input example" />
+                            <input className="form-control mb-3 signupinputs" type="password" placeholder="Confirm-Password" aria-label="default input example" />
+                            <button className="btn btn-dark sugnupbtn" style={{ width: "100%" }}>Register</button>
+                            <p className="text-center mt-3">Already a user? <b>Login</b></p>
 
-                 </div>
-                <br></br><br></br>
+                        </div>
+                        <br></br><br></br>
+                    </div>
+
                 </div>
-             
-            </div>
-            <div className="col-md-6 rightside " style={{background: "#001224"}}>
-                {/* <div className="imagecover" style={{position:"relative",top:"8%"}}>
+                <div className="col-md-6 rightside " style={{ background: "#001224" }}>
+                    {/* <div className="imagecover" style={{position:"relative",top:"8%"}}>
                     <div className="white-truck"><i className="fa-solid fa-truck"></i>
                     <p className="display-6">Safety in your truck</p>
                     </div>
@@ -41,10 +41,10 @@ function Signup(){
                 <h1 className="typo text-light mt-5 display-3">
                <span> “</span><br></br>
                 The easiest way<br></br> to buy and  manage<br></br> trucking insurance </h1> */}
-                <img width="100%" src={busy} alt="loginimage"/>
+                    <img width="100%" src={busy} alt="loginimage" />
+                </div>
             </div>
-        </div>
-        
+
         </>
     )
 }

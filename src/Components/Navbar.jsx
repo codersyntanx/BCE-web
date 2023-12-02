@@ -11,7 +11,7 @@ function Navbar() {
 
   const navbarStyle = {
     backgroundColor: menuClicked ? 'white' : '#011121',
-    color:menuClicked? "black" : "white"
+    color: menuClicked ? "black" : "white"
   };
 
   const linkStyle = {
@@ -19,25 +19,25 @@ function Navbar() {
     marginTop: menuClicked ? '20px' : '0px',
   };
 
-  const dropdownstyle ={
-    border: menuClicked ? "none":""
+  const dropdownstyle = {
+    border: menuClicked ? "none" : ""
   }
 
-  const buttonstyle={
-    width:menuClicked ? "100%":"",
-    border:menuClicked ? "2px solid black":"2px solid white",
-    fontSize:menuClicked ? "12px":"small",
-    backgroundColor:menuClicked ? "":"black",
-    fontWeight:menuClicked ? "bold":"bold",
-    color:menuClicked ? "black":"white"
+  const buttonstyle = {
+    width: menuClicked ? "100%" : "",
+    border: menuClicked ? "2px solid black" : "2px solid white",
+    fontSize: menuClicked ? "12px" : "small",
+    backgroundColor: menuClicked ? "" : "black",
+    fontWeight: menuClicked ? "bold" : "bold",
+    color: menuClicked ? "black" : "white"
   }
-  const quotesytle={
-    width:menuClicked ? "100%":"",
-    border:menuClicked ? "2px solid white":"2px solid black",
-    fontSize:menuClicked ? "12px":"small",
-    fontWeight:menuClicked ? "bold":"bold",
-    backgroundColor:menuClicked ? "black":"white",
-    color:menuClicked ? "white":"black"
+  const quotesytle = {
+    width: menuClicked ? "100%" : "",
+    border: menuClicked ? "2px solid white" : "2px solid black",
+    fontSize: menuClicked ? "12px" : "small",
+    fontWeight: menuClicked ? "bold" : "bold",
+    backgroundColor: menuClicked ? "black" : "white",
+    color: menuClicked ? "white" : "black"
   }
   return (
     <div className="container">
@@ -45,9 +45,9 @@ function Navbar() {
         <div className="container-fluid">
           <Link className="navbar-brand text-light" to="/">
             {
-              menuClicked?( <img src={logo2} alt="logo" width="100px" />):( <img src={logo} alt="logo" width="100px" />)
+              menuClicked ? (<img src={logo2} alt="logo" width="100px" />) : (<img src={logo} alt="logo" width="100px" />)
             }
-           
+
           </Link>
           <button
             className="navbar-toggler"
@@ -57,13 +57,13 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style={{backgroundColor:"white"}}
+            style={{ backgroundColor: "white" }}
             onClick={handleMenuClick}
           >
             {
-              menuClicked?(
+              menuClicked ? (
                 <i class="fa-solid fa-xmark"></i>
-              ):(
+              ) : (
                 <i class="fa-solid fa-bars"></i>
               )
             }
@@ -88,7 +88,7 @@ function Navbar() {
                 </Link>
                 <ul className="dropdown-menu insurence" style={dropdownstyle}>
                   <li>
-                    <Link className="dropdown-item"  to="/autoliability">
+                    <Link className="dropdown-item" to="/autoliability">
                       Auto liability insurance
                     </Link>
                   </li>
@@ -98,12 +98,12 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item"  to="/Motorinsurance">
+                    <Link className="dropdown-item" to="/Motorinsurance">
                       Motor truck cargo insurance
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item"  to="/Physicalinsurance">
+                    <Link className="dropdown-item" to="/Physicalinsurance">
                       Physical damage insurance
                     </Link>
                   </li>
@@ -111,7 +111,7 @@ function Navbar() {
               </li>
               <li className="nav-item mx-3">
                 <Link className="nav-link " style={linkStyle} to="/contactus">
-                FAQ & Resources
+                  FAQ & Resources
                 </Link>
               </li>
               <li className="nav-item mx-3">
@@ -126,17 +126,17 @@ function Navbar() {
               </li>
             </ul>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-            <li className="nav-item ">
-                <Link className="nav-link "  to="/login">
-                <button className="btn px-4   " style={buttonstyle}  > Login </button>
+              <li className="nav-item ">
+                <Link className="nav-link " to="/login">
+                  <button className="btn px-4   " style={buttonstyle}  > Login </button>
 
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link "  to="/login">
-                <button className="btn btn-light border border-dark p-2 " style={quotesytle}>
-                Get a quote
-              </button>
+                <Link className="nav-link " to="/login">
+                  <button className="btn btn-light border border-dark p-2 " style={quotesytle}>
+                    Get a quote
+                  </button>
                 </Link>
               </li>
             </ul>

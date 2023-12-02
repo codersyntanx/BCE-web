@@ -22,20 +22,20 @@ function Router() {
     <>
       {/* Render Navbar only if the current route is not /signup or /login */}
       {!isSignupOrLogin && <Navbar />}
-      
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home2" element={<Homesecound/>}/>
+        <Route path="/home2" element={<Homesecound />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/Motorinsurance" element={<Motortruckcargoinsurance/>}/>
-        <Route path="/Physicalinsurance" element={<PhysicalDemagaeInsurance/>}/>
-        <Route path="/autoliability" element={<Autoliability/>}/>
-        <Route path="/generalinsurance" element={<GeneralRealability/>}/>
-        <Route path="/aboutus" element={<About/>}/>
-        <Route path="/contactus" element={<Contactus/>}/>
+        <Route path="/Motorinsurance" element={<Motortruckcargoinsurance />} />
+        <Route path="/Physicalinsurance" element={<PhysicalDemagaeInsurance />} />
+        <Route path="/autoliability" element={<Autoliability />} />
+        <Route path="/generalinsurance" element={<GeneralRealability />} />
+        <Route path="/aboutus" element={<About />} />
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
-      
+
       {/* Render Footer only if the current route is not /signup or /login */}
       {!isSignupOrLogin && <Footer />}
     </>

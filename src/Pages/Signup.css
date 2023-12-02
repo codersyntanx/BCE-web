@@ -1,30 +1,38 @@
-row{
+row {
     height: auto;
 }
-.centerdiv{
+
+.centerdiv {
     margin-top: 40px;
 }
-.signuplogo{
+
+.signuplogo {
     width: 100px;
 }
-.centeralign{
+
+.centeralign {
     margin: auto;
     width: 70%;
 }
-.account{
+
+.account {
     font-size: 27px;
     margin-bottom: -3px;
 }
-.signupinputs{
+
+.signupinputs {
     background-color: rgb(223, 226, 225);
 }
-.maincard input:focus{
+
+.maincard input:focus {
     box-shadow: none;
     border: 2px solid black;
 }
-.maincard input{
+
+.maincard input {
     height: 64px;
 }
+
 .white-truck {
     background-color: white;
     width: 35%;
@@ -37,6 +45,7 @@ row{
     top: 20%;
     right: 80%;
 }
+
 .white-protect {
     background-color: white;
     width: 35%;
@@ -49,36 +58,43 @@ row{
     top: 70%;
     left: 30%;
 }
-.leftsider{
+
+.leftsider {
     background-color: #F0F8FF;
 }
-.typo{
+
+.typo {
     color: #FFF;
-font-feature-settings: 'clig' off, 'liga' off;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%;
-text-transform: capitalize;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
 }
-.typo span{
+
+.typo span {
     font-size: 38px;
 }
-.white-truck p{
+
+.white-truck p {
     font-size: small;
     font-weight: bold;
 }
-.white-protect p{
+
+.white-protect p {
     font-size: small;
     font-weight: bold;
 }
-.sugnupbtn{
+
+.sugnupbtn {
     padding: 20px;
     width: 100%;
-height: 64px;
-font-size: 18px;
-font-weight: bold;
+    height: 64px;
+    font-size: 18px;
+    font-weight: bold;
 }
+
 @media only screen and (max-width: 768px) {
     .white-truck {
         width: 35%;
@@ -86,47 +102,58 @@ font-weight: bold;
         font-size: small;
         font-weight: 300;
     }
+
     .white-protect {
         width: 35%;
         right: 70%;
         font-size: small;
         font-weight: 300;
     }
-    .centeralign{
+
+    .centeralign {
         text-align: center;
-    position: relative;
-    top: 10%;
+        position: relative;
+        top: 10%;
     }
-    .form{
+
+    .form {
         margin-left: 20px;
     }
-    .account{
+
+    .account {
         line-height: normal;
     }
 }
-.rightside{
+
+.rightside {
     background-image: url(../Assets/images/loginglobe.png);
     background-color: rgb(92, 92, 114);
 }
+
 @media only screen and (max-width: 500px) {
     .rightside {
         display: none;
     }
-.centerdiv{
-    margin-top: 0px;
-}
-.access{
-    margin-right: 25px;
-    
- }
- .sugnupbtn{
-    padding: 20px;
- }
-    .leftsider{
+
+    .centerdiv {
+        margin-top: 0px;
+    }
+
+    .access {
+        margin-right: 25px;
+
+    }
+
+    .sugnupbtn {
+        padding: 20px;
+    }
+
+    .leftsider {
         height: 130vh;
         background-color: white;
     }
-    .signuplogo{
+
+    .signuplogo {
         width: 150px;
     }
 }

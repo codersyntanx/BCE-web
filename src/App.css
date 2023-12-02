@@ -1,72 +1,85 @@
-body{
+body {
     background: #011121;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
-.insurence li:hover{
+
+.insurence li:hover {
     background-color: rgb(121, 195, 195);
 }
-.smalltext{
+
+.smalltext {
     color: #5a5959;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
+    /* 22.4px */
 }
-.smalltext2{
+
+.smalltext2 {
     color: #5a5959;
     font-size: 11px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
+    /* 22.4px */
 }
-.heading{
+
+.heading {
     color: #024;
     font-size: 24px;
 
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.pointsheading{
+
+.pointsheading {
     color: #024;
     font-size: 16px;
 
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.pointsheading2{
+
+.pointsheading2 {
     color: #024;
     font-size: 14px;
 
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.topicdescription{
+
+.topicdescription {
     font-size: 14px;
 }
-.scrollercontainer{
+
+.scrollercontainer {
     width: 90%;
 }
-.nav-link{
+
+.nav-link {
     font-size: 11px;
-   font-weight: 550;
+    font-weight: 550;
 }
-.navbar{
+
+.navbar {
     width: 95%;
     margin: auto;
-    
+
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar{
+    .navbar {
         width: 100%;
         margin: auto;
-        
+
     }
-    .scrollercontainer{
+
+    .scrollercontainer {
         width: 100%;
         margin: auto;
     }

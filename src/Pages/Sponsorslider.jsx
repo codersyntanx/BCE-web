@@ -48,9 +48,9 @@ class Sponsorslider extends React.Component {
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
     };
-    
-    
-    
+
+
+
 
     return (
       <div className=" border-bottom ">
@@ -58,7 +58,7 @@ class Sponsorslider extends React.Component {
           <div className="row  pt-5 sponsorrow">
             <div
               className="col-md-3 text-center bordernew  mb-4  "
-             
+
             >
               <span className='security'  >
                 The best security
@@ -85,32 +85,32 @@ class Sponsorslider extends React.Component {
                 <div>
                   <img src={partner6} style={{ marginLeft: "50px" }} alt="partner" />
                 </div>
-                
+
               </Slider>
             ) : (
               <>
                 <div className="col-md-9 justify-content-between align-items-center">
                   <Slider {...settings}>
                     <div style={{ width: "20%" }}>
-                      <img src={partner2} width="80%"  style={{marginTop:"10px"}}   alt="partner" />
+                      <img src={partner2} width="80%" style={{ marginTop: "10px" }} alt="partner" />
                     </div>
                     <div style={{ width: "20%" }}>
-                      <img src={partner3} width="80%" style={{marginTop:"15px"}}  alt="partner" />
+                      <img src={partner3} width="80%" style={{ marginTop: "15px" }} alt="partner" />
                     </div>
                     <div style={{ width: "20%" }}>
-                      <img src={partner6} width="80%"  alt="partner" />
+                      <img src={partner6} width="80%" alt="partner" />
                     </div>
                     <div style={{ width: "20%" }}>
-                      <img src={partner4} width="80%" style={{marginTop:"10px"}}   alt="partner" />
+                      <img src={partner4} width="80%" style={{ marginTop: "10px" }} alt="partner" />
                     </div>
                     <div style={{ width: "20%" }}>
-                      <img src={partner5} width="80%"  alt="partner" />
+                      <img src={partner5} width="80%" alt="partner" />
                     </div>
                     <div style={{ width: "20%" }}>
-                      <img src={partner6} width="80%"  alt="partner" />
+                      <img src={partner6} width="80%" alt="partner" />
                     </div>
                     <div style={{ width: "20%" }}>
-                      <img src={partner7} width="80%" style={{marginBottom:"15px"}}  alt="partner" />
+                      <img src={partner7} width="80%" style={{ marginBottom: "15px" }} alt="partner" />
                     </div>
                   </Slider>
                 </div>

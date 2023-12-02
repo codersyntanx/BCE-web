@@ -23,21 +23,21 @@ const CustomSlide = ({ number, title, description, checks }) => (
 
 
 const NewCustom = ({ number, title, description, checks }) => (
-    <div className="col-md-3 p-3 smallscreen">
-      <h1 style={{ fontWeight: "700" }}>{number}</h1>
-      <b>{title}</b>
-      <div className="mt-3">
-        <span style={{ fontSize: "small", color: "grey" }}>{description}</span>
-      </div>
-  
-      {checks.map((check, index) => (
-        <div key={index} className="d-flex mt-3 align-items-center">
-          <img src={greencheck} width="30px" alt="check" /> &nbsp;
-          <span style={{ fontWeight: "bold", fontSize: "small" }}>{check}</span>
-        </div>
-      ))}
+  <div className="col-md-3 p-3 smallscreen">
+    <h1 style={{ fontWeight: "700" }}>{number}</h1>
+    <b>{title}</b>
+    <div className="mt-3">
+      <span style={{ fontSize: "small", color: "grey" }}>{description}</span>
     </div>
-  );
+
+    {checks.map((check, index) => (
+      <div key={index} className="d-flex mt-3 align-items-center">
+        <img src={greencheck} width="30px" alt="check" /> &nbsp;
+        <span style={{ fontWeight: "bold", fontSize: "small" }}>{check}</span>
+      </div>
+    ))}
+  </div>
+);
 
 
 const LargeScreenContent = () => (
@@ -117,16 +117,16 @@ const LargeScreenContent = () => (
 
 const Educate = () => {
   const isSmallScreen = window.innerWidth <= 600;
-  
-    const [activeDot, setActiveDot] = useState(0);
-  
-    const handleBeforeChange = (oldIndex, newIndex) => {
-      setActiveDot(newIndex);
-    };
+
+  const [activeDot, setActiveDot] = useState(0);
+
+  const handleBeforeChange = (oldIndex, newIndex) => {
+    setActiveDot(newIndex);
+  };
   if (isSmallScreen) {
     const slides = [
       {
-        number:"1",
+        number: "1",
         title: "Educate",
         description:
           "Access valuable educational resources shared by industry veterans who are former trucking company owners.",
@@ -137,7 +137,7 @@ const Educate = () => {
         ],
       },
       {
-        number:"2",
+        number: "2",
         title: "Quote",
         description:
           "Have it on hand the best quotes shared by industry veterans who are former trucking company owners.",
@@ -148,7 +148,7 @@ const Educate = () => {
         ],
       },
       {
-        number:"3",
+        number: "3",
         title: "Purchase",
         description:
           "Acquire insurance that offers top-notch coverage at the most competitive rate, and you can always reach out to our knowledgeable agents.",
@@ -161,40 +161,40 @@ const Educate = () => {
     ];
 
     const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        appendDots: (dots) => (
-          <div style={{ bottom: "-40px", left: "50%", transform: "translateX(-50%)" }}>
-            <ul style={{ margin: "0px" }}> {dots} </ul>
-          </div>
-        ),
-        customPaging: (i) => (
-          <div
-            style={{
-              width: "10px",
-              height: "10px",
-              background: i === activeDot ? "#002244" : "#ddd",
-              borderRadius: "50%",
-            }}
-          ></div>
-        ),
-        beforeChange: handleBeforeChange,
-      };
-  
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      appendDots: (dots) => (
+        <div style={{ bottom: "-40px", left: "50%", transform: "translateX(-50%)" }}>
+          <ul style={{ margin: "0px" }}> {dots} </ul>
+        </div>
+      ),
+      customPaging: (i) => (
+        <div
+          style={{
+            width: "10px",
+            height: "10px",
+            background: i === activeDot ? "#002244" : "#ddd",
+            borderRadius: "50%",
+          }}
+        ></div>
+      ),
+      beforeChange: handleBeforeChange,
+    };
+
 
     return (
-        <div className="container-fluid mx-auto" style={{height:"auto"}}>
-         <Slider {...settings}>
+      <div className="container-fluid mx-auto" style={{ height: "auto" }}>
+        <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="slider-item">
               <NewCustom {...slide} />
             </div>
           ))}
         </Slider>
-        
+
         <div
           className="justify-content-center align-items-center mt-5 d-flex mt-4"
           style={{ fontSize: "small" }}

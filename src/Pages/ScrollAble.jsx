@@ -28,40 +28,40 @@ const ScrollAble = () => {
     <div className="scrollercontainer" >
       <div className="row mt-5">
         <div className="col-md-1 scroller   ">
-    <div className='mainscroll' >
-<div className={mainPositionClass} >
+          <div className='mainscroll' >
+            <div className={mainPositionClass} >
 
-</div>
-    </div>
-    
-          <button className="btn rightbutton mt-1 " onClick={handleButtonClick}  style={{borderRadius:"50%",backgroundColor:"black"}}>
+            </div>
+          </div>
 
-            
-          {
-  isSmallScreen ? (
-    mainPositionClass === "mainpositiontop" ? (
-      <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={righarrow}  alt="leftarrow" width="20px" />
-    ) : (
-      <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={leftarrow} alt="downarrow" width="20px" />
-    )
-  ) : (
-    mainPositionClass === "mainpositiontop" ? (
-      <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={downarrow} alt="leftarrow" width="20px" />
-    ) : (
-      <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={rightarrow} alt="rightarrow" width="20px" />
-    )
-  )
-}
+          <button className="btn rightbutton mt-1 " onClick={handleButtonClick} style={{ borderRadius: "50%", backgroundColor: "black" }}>
 
-      
-     
-              </button>
+
+            {
+              isSmallScreen ? (
+                mainPositionClass === "mainpositiontop" ? (
+                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={righarrow} alt="leftarrow" width="20px" />
+                ) : (
+                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={leftarrow} alt="downarrow" width="20px" />
+                )
+              ) : (
+                mainPositionClass === "mainpositiontop" ? (
+                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={downarrow} alt="leftarrow" width="20px" />
+                ) : (
+                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={rightarrow} alt="rightarrow" width="20px" />
+                )
+              )
+            }
+
+
+
+          </button>
         </div>
         <div className="col-md-6">
           <ul>
             {showFirstContent ? (
               <>
-                 <li className="d-flex border-bottom ">
+                <li className="d-flex border-bottom ">
                   <img src={note} alt="checked" width="25px" height="25px" /> &nbsp;&nbsp;&nbsp;
                   <div>
                     <span className="pointsheading2">Instante certificates of insurance</span>
@@ -85,7 +85,7 @@ const ScrollAble = () => {
               </>
             ) : (
               <>
-                 <li className="d-flex border-bottom ">
+                <li className="d-flex border-bottom ">
                   <img src={call} alt="checked" width="25px" height="25px" /> &nbsp;&nbsp;&nbsp;
                   <div>
                     <span className="pointsheading2">Connect with a live agent</span>
@@ -110,14 +110,14 @@ const ScrollAble = () => {
             )}
           </ul>
         </div>
-        <div className="col-md-5" style={{height:""}}>
+        <div className="col-md-5" style={{ height: "" }}>
           {showFirstContent ? (
             <img width="100%" src={finall} alt="care" />
           ) : (
             <img width="100%" height="100%" src={smile} alt="care" />
           )}
         </div>
-        
+
       </div>
     </div>
   );
