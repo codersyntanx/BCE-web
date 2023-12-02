@@ -48,7 +48,7 @@ function Motortruckcargoinsurance() {
 <h4><b>Secure Motor Truck Cargo Insurance quickly and effortlessly.</b></h4>
 <img className="mb-3" src={rectangal} alt="image" />
 
-<p style={{fontSize:"small"}}>Get in touch with an expert who can guide you through the intricacies<br></br> of trucking insurance and leverage a contemporary platform to <br></br>increase the efficiency of your business.</p>
+<p style={{fontSize:"16px"}}>Get in touch with an expert who can guide you through the intricacies<br></br> of trucking insurance and leverage a contemporary platform to <br></br>increase the efficiency of your business.</p>
                     </div> </div>
 
 
