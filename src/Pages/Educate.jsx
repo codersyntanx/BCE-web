@@ -174,13 +174,15 @@ const Educate = () => {
       customPaging: (i) => (
         <div
           style={{
-            width:  i === activeDot ? "20px" : "10px",
+            width: i === activeDot ? "20px" : "10px",
             height: "10px",
             background: i === activeDot ? "#002244" : "#ddd",
-            borderRadius:  i === activeDot ? "20%" : "50%",
+            borderRadius: i === activeDot ? "20%" : "50%",
+            transition: "width 0.5s ease-in-out", 
           }}
         ></div>
       ),
+      
       beforeChange: handleBeforeChange,
     };
 
