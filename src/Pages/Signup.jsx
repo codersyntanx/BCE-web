@@ -7,7 +7,7 @@ function Signup(){
     return(
         <>
         <div className="row" >
-            <div className="col-md-6 leftsider pb-5">
+            <div className="col-md-6 leftsider ">
                 <div className="centeralign centerdiv">
                     <Link to="/">
                 <img className="mx-auto signuplogo" src={logo}  alt="bce-logo"/></Link>

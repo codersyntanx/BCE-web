@@ -134,7 +134,7 @@ function Navbar() {
               </li>
               <li className="nav-item ">
                 <Link className="nav-link "  to="/login">
-                <button className="btn btn-light border border-dark loginbtn   px-3" style={quotesytle}>
+                <button className="btn btn-light border border-dark loginbtn p-2   px-3" style={quotesytle}>
                 Get a quote
               </button>
                 </Link>

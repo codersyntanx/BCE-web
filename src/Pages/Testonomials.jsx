@@ -124,7 +124,7 @@ class Testonomials extends Component {
         <>
      {
      isSmallScreen?(
-      <div className=" mt-5 mx-auto" style={{width:"85%"}} >
+      <div className=" mt-5 mx-auto" style={{width:"98%"}} >
       <div className="row "  >
         <div className="col-md-1"></div>
         <div className="col-md-3 pt-5 text-center ">
