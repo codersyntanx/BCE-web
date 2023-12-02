@@ -134,6 +134,12 @@
   color: black;
 }
 
+.rightbutton1{
+  border-radius: 50%;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+}
 .educate {
   border: 2px solid rgb(191, 190, 190);
   border-bottom: 5px solid black;

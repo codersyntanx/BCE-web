@@ -34,21 +34,21 @@ const ScrollAble = () => {
             </div>
           </div>
 
-          <button className="btn rightbutton mt-1 " onClick={handleButtonClick} style={{ borderRadius: "50%", backgroundColor: "black" }}>
+          <button className="btn rightbutton1 mt-1 " onClick={handleButtonClick} style={{ borderRadius: "50%", backgroundColor: "black" }}>
 
 
             {
               isSmallScreen ? (
                 mainPositionClass === "mainpositiontop" ? (
-                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={righarrow} alt="leftarrow" width="20px" />
+                  <img style={{  marginBottom: "10px" }} src={righarrow} alt="leftarrow" width="20px" />
                 ) : (
-                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={leftarrow} alt="downarrow" width="20px" />
+                  <img style={{marginBottom: "10px" }} src={leftarrow} alt="downarrow" width="20px" />
                 )
               ) : (
                 mainPositionClass === "mainpositiontop" ? (
-                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={downarrow} alt="leftarrow" width="20px" />
+                  <img style={{ marginLeft: "-6px", marginBottom: "10px" }} src={downarrow} alt="leftarrow" width="20px" />
                 ) : (
-                  <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={rightarrow} alt="rightarrow" width="20px" />
+                  <img style={{ marginLeft: "-6px", marginBottom: "10px" }} src={rightarrow} alt="rightarrow" width="20px" />
                 )
               )
             }
@@ -92,14 +92,14 @@ const ScrollAble = () => {
                     <p className="smalltext2">We offer the option to connect with a live agent 24/7.Our agents are experienced and qualified and are ready to help you with any questions or problems you may have.</p>
                   </div>
                 </li>
-                <li className="d-flex border-bottom mt-2">
+                <li className="d-flex border-bottom mt-4">
                   <img src={jeep} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
                     <span className="pointsheading2">Trucking industry especialists</span>
                     <p className="smalltext2">We have a team of experts with extensive experience in the sector, who are prepared to offer the best solutions to their customers' needs.</p>
                   </div>
                 </li>
-                <li className="d-flex border-bottom mt-2">
+                <li className="d-flex border-bottom mt-4">
                   <img src={dollar} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
                     <span className="pointsheading2">Competitive rates</span>
