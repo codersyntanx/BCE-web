@@ -7,6 +7,7 @@
     margin-top: 50px;
     width: 85%;
 }
+
 .homebutton{
     background-color: inherit;
     border: 2px solid rgb(199, 199, 199);
@@ -151,6 +152,7 @@ border-radius: 10px;
     width: 5px;
     background-color: black;
     border-radius: 10px;
+    transition: transform 0.5s ease;
   }
   
   .mainpositionbottom {

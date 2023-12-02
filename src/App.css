@@ -13,6 +13,13 @@ body{
     font-weight: 400;
     line-height: 140%; /* 22.4px */
 }
+.smalltext2{
+    color: #5a5959;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
 .heading{
     color: #024;
     font-size: 24px;
@@ -24,6 +31,14 @@ line-height: normal;
 .pointsheading{
     color: #024;
     font-size: 16px;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.pointsheading2{
+    color: #024;
+    font-size: 14px;
 
 font-style: normal;
 font-weight: 700;

@@ -8,10 +8,7 @@ import { useState } from "react";
 function Contactus() {
     const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleItemClick = (index) => {
-    // Toggle the active index
-    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
-  };
+ 
     return (
         <>
             <div className="container   text-light " style={{width:"85%",height:"120px"}}>
@@ -26,7 +23,7 @@ function Contactus() {
 
             <div className="mainbody ">
             <div className="contactusbody p-5 ">
-                    <div className="container contactfoam " >
+                    <div className=" contactfoam " >
                  <div className="row">
                   <div className="col-md-6">
                      <h1 style={{fontWeight:"bold",fontSize:"35px"}}>Get in touch<br></br> with us</h1>

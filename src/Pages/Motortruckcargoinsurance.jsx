@@ -116,7 +116,7 @@ function Motortruckcargoinsurance() {
                 
             </li>
             <li className="d-flex border-bottom mt-2">
-            <img width="24" height="24" src="https://img.icons8.com/material-two-tone/24/us-dollar--v1.png" alt="us-dollar--v1"/> &nbsp;&nbsp;&nbsp;
+          <img width="24" height="24" src="https://img.icons8.com/material-two-tone/24/us-dollar--v1.png" alt="us-dollar--v1"/> &nbsp;&nbsp;&nbsp;
 <div>
 <b style={{fontSize:"16px"}}>Competitive rates</b>
 <p  className="smalltext">We offer competitive rates for all your products and services. Our commitment is to provide the best protection for our customers without compromising quality or value.</p>

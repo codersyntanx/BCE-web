@@ -64,22 +64,22 @@ const ScrollAble = () => {
                  <li className="d-flex border-bottom ">
                   <img src={note} alt="checked" width="25px" height="25px" /> &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="pointsheading">Instante certificates of insurance</span>
-                    <p className="smalltext">We offer instant certificates of insurance for all your products and services. This means you can get the insurance coverage you need quickly and easily, without having to wait days or weeks to receive your certificate.</p>
+                    <span className="pointsheading2">Instante certificates of insurance</span>
+                    <p className="smalltext2">We offer instant certificates of insurance for all your products and services. This means you can get the insurance coverage you need quickly and easily, without having to wait days or weeks to receive your certificate.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={Browser} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="pointsheading">Shop with multiple insurance companies and 24/7 policy management</span>
-                    <p className="smalltext">We offer you the ability to purchase insurance with multiple insurance companies. This means you can compare offers from different insurers to find the best coverage and price for your needs.</p>
+                    <span className="pointsheading2">Shop with multiple insurance companies and 24/7 policy management</span>
+                    <p className="smalltext2">We offer you the ability to purchase insurance with multiple insurance companies. This means you can compare offers from different insurers to find the best coverage and price for your needs.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={varify} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="pointsheading">DOT Compliance assistance</span>
-                    <p className="smalltext">We offer DOT compliance assistance to help businesses comply with DOT regulations. Our team of experts can help you in the best way possible</p>
+                    <span className="pointsheading2">DOT Compliance assistance</span>
+                    <p className="smalltext2">We offer DOT compliance assistance to help businesses comply with DOT regulations. Our team of experts can help you in the best way possible</p>
                   </div>
                 </li>
               </>
@@ -110,7 +110,7 @@ const ScrollAble = () => {
             )}
           </ul>
         </div>
-        <div className="col-md-5">
+        <div className="col-md-5" style={{height:""}}>
           {showFirstContent ? (
             <img width="100%" src={finall} alt="care" />
           ) : (
