@@ -11,7 +11,7 @@ function Signup() {
                     <div className="centeralign centerdiv">
                         <Link to="/">
                             <img className="mx-auto signuplogo" src={logo} alt="bce-logo" /></Link>
-                        <div className="mt-4">
+                        <div className="mt-4 signupheadings">
                             <p className="account" ><b>Sign up account</b></p>
                             <span className="access">Fill out follwing details</span>
                         </div>

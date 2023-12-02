@@ -30,7 +30,7 @@ row {
 }
 
 .maincard input {
-    height: 64px;
+    height: 50px;
 }
 
 .white-truck {
@@ -96,6 +96,11 @@ row {
 }
 
 @media only screen and (max-width: 768px) {
+    .signupheadings{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
     .white-truck {
         width: 35%;
         right: 70%;
@@ -113,7 +118,7 @@ row {
     .centeralign {
         text-align: center;
         position: relative;
-        top: 10%;
+        margin-top: 0px;
     }
 
     .form {

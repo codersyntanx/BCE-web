@@ -14,7 +14,7 @@ function Login() {
                         <div className="centeralign ">
                             <Link to="/"><img src={logo} className="loginlogo" alt="bce-logo" /></Link>
 
-                            <div className="mt-4">
+                            <div className="mt-4 signupheadings">
                                 <p className="account" ><b>Login</b></p>
                                 <span className="access" >Access back to your account</span>
 

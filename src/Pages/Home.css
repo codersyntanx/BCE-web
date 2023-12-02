@@ -245,7 +245,9 @@
 
 /* Media Query styles */
 @media only screen and (max-width: 600px) {
-
+body{
+  overflow-y: hidden;
+}
   .homebuttons,
   .herotext,
   .portfolio {
@@ -258,12 +260,12 @@
   }
 
   .sponsorrow {
-    width: 100%;
+    width: 99%;
     margin: auto;
   }
 
   .sponsor {
-    width: 100%;
+    width: 99%;
   }
 
   .lineimage {
