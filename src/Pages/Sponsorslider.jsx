@@ -42,7 +42,7 @@ class Sponsorslider extends React.Component {
       autoplay: true,
       autoplaySpeed: 0,
       speed: 1000,
-      slidesToShow: isSmallScreen ? 2 : 6,
+      slidesToShow: isSmallScreen ? 1.5 : 6,
       slidesToScroll: 1,
       cssEase: "ease", // Experiment with different easing functions
       nextArrow: <SampleNextArrow />,
