@@ -8,11 +8,7 @@ body{
 }
 .smalltext{
     color: #5a5959;
-<<<<<<< Updated upstream
-    font-size: 16px;
-=======
     font-size: 14px;
->>>>>>> Stashed changes
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 22.4px */
