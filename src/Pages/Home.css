@@ -125,34 +125,10 @@
 .homebutton {
   font-size: 10px;
 }
-
-@media only screen and (max-width: 768px) {
-  .phoneboxcon {
-    display: block;
-  }
-
-  .phonebox2 {
-    margin-left: 0;
-  }
-
-  .textareaslide {
-    margin-left: 0px;
-  }
-
-  .maincard2 {
-    margin-left: -20px;
-  }
-
-  .homebutton {
-    width: 50%;
-    font-size: 8px;
-  }
-
-
-
+.slider-item {
+  height: auto;
 
 }
-
 
 
 
@@ -243,10 +219,45 @@
   padding-bottom: 20px;
 }
 
+
+@media only screen and (max-width: 768px) {
+  .phoneboxcon {
+    display: block;
+  }
+
+  .phonebox2 {
+    margin-left: 0;
+  }
+
+  .textareaslide {
+    margin-left: 0px;
+  }
+
+  .maincard2 {
+    margin-left: -20px;
+  }
+
+  .homebutton {
+    width: 50%;
+    font-size: 8px;
+  }
+
+
+
+
+}
+
+
+
 /* Media Query styles */
 @media only screen and (max-width: 600px) {
+  .herosection{
+    position: relative;
+    height: 510px;
+  }
   .homebody{
   overflow-x: hidden;
+  padding-top: 200px;
 }
 .bordernew {
   border-right:none;
@@ -351,7 +362,3 @@
   }
 }
 
-.slider-item {
-  height: auto;
-
-}

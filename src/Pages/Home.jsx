@@ -26,7 +26,8 @@ function Home() {
 
   return (
     <>
-      <div className="container herosection  " >
+      <div className="container" >
+        <div className="herosection">
         <div className="row hreosectionrow">
           <div className="col-md-5">
             <div className="homebuttons">
@@ -91,6 +92,7 @@ function Home() {
 
             </div>
           </div>
+        </div>
         </div>
       </div>
 
