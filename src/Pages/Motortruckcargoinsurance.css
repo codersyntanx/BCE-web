@@ -9,6 +9,9 @@
   color: white;
   height: 130px;
 }
+.mainbody{
+  overflow-x: hidden;
+}
 .custactcolum{
   padding-right: 40px;
 }
