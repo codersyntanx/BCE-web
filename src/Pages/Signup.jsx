@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 function Signup() {
     return (
         <>
+<<<<<<< Updated upstream
             <div className="row" >
                 <div className="col-md-6 leftsider ">
                     <div className="centeralign centerdiv">
@@ -26,6 +27,24 @@ function Signup() {
                         </div>
                         <br></br><br></br>
                     </div>
+=======
+        <div className="row" >
+            <div className="col-md-6 leftsider ">
+                <div className="centeralign centerdiv">
+                    <Link to="/">
+                <img className="mx-auto signuplogo" src={logo}  alt="bce-logo"/></Link>
+                 <div className="mt-4 loginheading">
+<p className="account" ><b>Sign up account</b></p>
+                <span className="access">Fill out follwing details</span>
+                 </div>
+                 <div className="form mt-4 maincard mx-auto" >
+                 <input className="form-control mb-3 signupinputs" type="text" placeholder="Your Name" aria-label="Your Name"/>
+                 <input className="form-control mb-3 signupinputs" type="text" placeholder="E-mail" aria-label="E-mail"/>
+                 <input className="form-control mb-3 signupinputs" type="password" placeholder="Password" aria-label="default input example"/>
+                 <input className="form-control mb-3 signupinputs" type="password" placeholder="Confirm-Password" aria-label="default input example"/>
+                 <button className="btn btn-dark sugnupbtn" style={{width:"100%"}}>Register</button>
+                 <p className="text-center mt-3">Already a user? <b>Login</b></p>
+>>>>>>> Stashed changes
 
                 </div>
                 <div className="col-md-6 rightside " style={{ background: "#001224" }}>

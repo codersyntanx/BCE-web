@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 .mainlogin {
     overflow-x: hidden;
+=======
+.mainlogin{
+    /* overflow-x: hidden; */
+>>>>>>> Stashed changes
 }
 
 row {
@@ -9,10 +14,20 @@ row {
 .loginscreen {
     background-color: #F0F8FF;
 }
+<<<<<<< Updated upstream
 
 .centeralign {
+=======
+.loginheading{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.centeralign{
+>>>>>>> Stashed changes
     margin: auto;
     width: 70%;
+    margin-top: 40px;
 }
 
 .account {
@@ -115,10 +130,17 @@ row {
         font-size: small;
         font-weight: 300;
     }
+<<<<<<< Updated upstream
 
     .centeralign {
         position: relative;
         top: 10%;
+=======
+    .centeralign{
+    position: relative;
+    top: 0;
+    margin-top: 0px;
+>>>>>>> Stashed changes
     }
 
     .form {
@@ -144,8 +166,8 @@ row {
     .loginlogo {
         width: 150px;
         margin-top: 0px;
-        margin-bottom: 50px;
     }
+<<<<<<< Updated upstream
 
     .access {
         margin-right: 70px;
@@ -157,8 +179,17 @@ row {
     }
 
     .centeralign span {
+=======
+    .access{
+        float: left;
+    }
+   .loginscreen{
+    height: auto;
+    background-color: white;
+   }
+    .centeralign span{
+>>>>>>> Stashed changes
         text-align: left;
-
     }
 
     .inputss {

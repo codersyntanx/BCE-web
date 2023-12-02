@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 function Login() {
     return (
         <>
+<<<<<<< Updated upstream
             <div className="mainlogin">
                 <div className="row ">
                     <div className="col-md-6 loginscreen">
@@ -40,6 +41,17 @@ function Login() {
 
                             <br></br><br></br><br></br>
                         </div>
+=======
+        <div className="mainlogin">
+              <div className="row ">
+            <div className="col-md-6 loginscreen">
+                <div className="centeralign">
+                    <Link to="/"><img src={logo} className="loginlogo mx-auto" alt="bce-logo"/></Link>
+                
+                 <div className="mt-4 loginheading">
+<p className="account" ><b>Login</b></p>
+                <span className="access" >Access back to your account</span>
+>>>>>>> Stashed changes
 
                     </div>
                     <div className="col-md-6 rightside " style={{ background: "#001224" }}>
