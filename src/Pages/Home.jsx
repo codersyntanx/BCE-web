@@ -26,8 +26,8 @@ function Home() {
 
   return (
     <>
-      <div className="container" >
-        <div className="herosection">
+      <div >
+        <div className="herosection mx-auto">
         <div className="row hreosectionrow">
           <div className="col-md-5">
             <div className="homebuttons">
@@ -107,9 +107,9 @@ function Home() {
           <p className="topicdescription">Get in touch with an expert who can guide you through the intricacies<br></br> of trucking insurance and leverage a contemporary platform to<br></br> increase the efficiency of your business.</p>
         </div>
 
-        <div className="container">
+        
           <ScrollAble />
-        </div>
+    
 
         <div className="trucking">
           <div className="container-fluid">

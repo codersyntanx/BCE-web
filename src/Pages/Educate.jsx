@@ -174,10 +174,10 @@ const Educate = () => {
       customPaging: (i) => (
         <div
           style={{
-            width: "10px",
+            width:  i === activeDot ? "20px" : "10px",
             height: "10px",
             background: i === activeDot ? "#002244" : "#ddd",
-            borderRadius: "50%",
+            borderRadius:  i === activeDot ? "20%" : "50%",
           }}
         ></div>
       ),

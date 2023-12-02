@@ -40,7 +40,7 @@ function Navbar() {
     color: menuClicked ? "white" : "black"
   }
   return (
-    <div className="container">
+  
       <nav className="navbar navbar-expand-lg mt-3" style={navbarStyle}>
         <div className="container-fluid">
           <Link className="navbar-brand text-light" to="/">
@@ -144,7 +144,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+   
   );
 }
 
