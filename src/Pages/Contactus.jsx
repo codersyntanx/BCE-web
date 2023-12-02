@@ -11,6 +11,7 @@ function Contactus() {
 
   return (
     <>
+    <div className="maintopmotor">
       <div className="container   text-light " style={{ width: "85%", height: "120px" }}>
         <span className="location  mt-2 pb-4" >
           <Link style={{ textDecoration: "none", color: "white", fontSize: "10px" }} to="/">   <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
@@ -19,7 +20,7 @@ function Contactus() {
           <h4 className="maintitles">Contact us</h4>
 
         </span>
-      </div>
+      </div></div>
 
       <div className="mainbody ">
         <div className="contactusbody pt-5 ">

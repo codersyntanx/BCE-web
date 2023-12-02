@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import { Link } from "react-router-dom";
 import rectangal from "../Assets/images/Rectangle 34627069.png"
 import group from "../Assets/images/Laugh.png";
@@ -12,9 +11,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import team1 from "../Assets/team/Frame 1171278545 (1).png"
 import team2 from "../Assets/team/Frame 1171278607.png"
-import leftarrow from "../Assets/images/CaretDown.png"
-import rightarrow from "../Assets/images/CaretDown (1).png"
-
 
 function SampleNextArrow(props) {
   const isSmallScreen = window.innerWidth <= 600;
@@ -77,7 +73,7 @@ class About extends Component {
 
     return (
       <>
-
+ <div className="maintopmotor">
         <div className="container   text-light " style={{ width: "85%", height: "120px" }}>
           <span className="location  mt-2 pb-4" >
             <Link style={{ textDecoration: "none", color: "white", fontSize: "10px" }} to="/">   <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
@@ -86,7 +82,7 @@ class About extends Component {
             <h4 className="maintitles">About us</h4>
 
           </span>
-        </div>
+        </div></div>
 
         <div className="mainbody ">
           <div className="container pt-5 pb-5" style={{ width: "85%" }}>
