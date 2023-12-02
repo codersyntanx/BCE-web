@@ -25,7 +25,7 @@ function Home() {
 
 
   return (
-    <>
+    <div className="homeparentdiv">
       <div >
         <div className="herosection mx-auto">
         <div className="row hreosectionrow">
@@ -206,7 +206,7 @@ function Home() {
 
         <Testonomials />
       </div>
-    </>
+    </div>
   )
 }
 export default Home
