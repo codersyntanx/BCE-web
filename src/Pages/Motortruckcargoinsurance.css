@@ -282,7 +282,6 @@
   .maintopmotor {
     height: 160px;
   }
-<<<<<<< Updated upstream
 
   .contactfoam {
     width: 96%;
@@ -300,21 +299,6 @@
   }
 
   .location {
-=======
- .contactfoam{
-  width: 96%;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 10px;
- }
- .centeralign{
-padding-top: 30px;
-}
- .quatationimage{
-  display: none;
-}
-  .location{
->>>>>>> Stashed changes
     position: relative;
     top: 20px;
     display: block;
