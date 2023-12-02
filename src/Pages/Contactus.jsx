@@ -22,7 +22,7 @@ function Contactus() {
                 </div>
 
             <div className="mainbody ">
-            <div className="contactusbody p-5 ">
+            <div className="contactusbody pt-5 ">
                     <div className=" contactfoam " >
                  <div className="row">
                   <div className="col-md-6">
@@ -68,7 +68,7 @@ function Contactus() {
                     </div>
                 </div>
 
-                <div className="text-center mt-5">
+                <div className="text-center centeralign mt-5">
                         <span className="smalltext">Got questions? We have answers!</span>
 <h3><b>Frequently asked questions</b></h3>
 <img src={rectangal} alt="line"/>

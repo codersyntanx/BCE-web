@@ -249,11 +249,13 @@ align-items: flex-start;
     height: 160px;
   }
  .contactfoam{
-  width: 100%;
+  width: 96%;
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 10px;
  }
+ .centeralign{
+padding-top: 50px; }
  .quatationimage{
   display: none;
 }
