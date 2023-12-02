@@ -88,22 +88,22 @@ const ScrollAble = () => {
                  <li className="d-flex border-bottom ">
                   <img src={call} alt="checked" width="25px" height="25px" /> &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="pointsheading">Connect with a live agent</span>
-                    <p className="smalltext">We offer the option to connect with a live agent 24/7.Our agents are experienced and qualified and are ready to help you with any questions or problems you may have.</p>
+                    <span className="pointsheading2">Connect with a live agent</span>
+                    <p className="smalltext2">We offer the option to connect with a live agent 24/7.Our agents are experienced and qualified and are ready to help you with any questions or problems you may have.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={jeep} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="pointsheading">Trucking industry especialists</span>
-                    <p className="smalltext">We have a team of experts with extensive experience in the sector, who are prepared to offer the best solutions to their customers' needs.</p>
+                    <span className="pointsheading2">Trucking industry especialists</span>
+                    <p className="smalltext2">We have a team of experts with extensive experience in the sector, who are prepared to offer the best solutions to their customers' needs.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={dollar} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="pointsheading">Competitive rates</span>
-                    <p className="smalltext">We offer competitive rates for all your products and services. Our commitment is to provide the best protection for our customers without compromising quality or value.</p>
+                    <span className="pointsheading2">Competitive rates</span>
+                    <p className="smalltext2">We offer competitive rates for all your products and services. Our commitment is to provide the best protection for our customers without compromising quality or value.</p>
                   </div>
                 </li>
               </>

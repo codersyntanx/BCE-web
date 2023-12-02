@@ -42,7 +42,7 @@ class Sponsorslider extends React.Component {
       autoplay: true,
       autoplaySpeed: 0,
       speed: 1000,
-      slidesToShow: isSmallScreen ? 1.5 : 6,
+      slidesToShow: isSmallScreen ? 2 : 6,
       slidesToScroll: 1,
       cssEase: "ease", // Experiment with different easing functions
       nextArrow: <SampleNextArrow />,
@@ -55,16 +55,16 @@ class Sponsorslider extends React.Component {
     return (
       <div className=" border-bottom ">
         <div className="container-fluid sponsor">
-          <div className="row d-flex p-5">
+          <div className="row  pt-5 sponsorrow">
             <div
-              className="col-md-3 text-center mb-4  "
+              className="col-md-3 text-center bordernew  mb-4  "
              
             >
               <span className='security'  >
                 The best security
                 <br />
                 <span className='mb-2' style={{ fontSize: "22px", lineHeight: "0.4" }}>
-                  <b className='border-bottom pb-3'>Main partners</b>
+                  <b className='bordercontent pb-2'>Main partners</b>
                 </span>
               </span>
             </div>

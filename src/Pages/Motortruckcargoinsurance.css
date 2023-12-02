@@ -224,7 +224,8 @@ align-items: flex-start;
   text-align: center;
 }
 }
-
+.centeralign{
+  padding-top: 50px; }
 @media only screen and (max-width: 600px) {
   .listitem ul{
     padding: 0px 15px;
