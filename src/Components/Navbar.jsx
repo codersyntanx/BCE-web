@@ -7,6 +7,7 @@ function Navbar() {
 
   const handleMenuClick = () => {
     setMenuClicked(!menuClicked);
+
   };
 
   const navbarStyle = {
@@ -57,7 +58,7 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          
+          style={{border:"none",backgroundColor:"inherit",boxShadow:"none"}}
             onClick={handleMenuClick}
           >
             {

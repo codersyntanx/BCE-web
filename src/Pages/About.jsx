@@ -281,14 +281,13 @@ class About extends Component {
                   </Slider>
                 </div>
                 <div className="col-md-1 text-center mt-3 mb-3">
-                  <button className="btn rightbutton " onClick={this.previous} style={{ borderRadius: "50%", border: "2px solid black" }}>
-                    <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={rightarrow} alt="leftarrow" width="20px" />
-                  </button>
+                <button className="btn rightbutton " onClick={this.previous} style={{ borderRadius: "50%", border: "2px solid black" }}>
+                  <i class="fa fa-angle-left leftbuttonarr" aria-hidden="true"></i>                  </button>
 
 
-                  <button className="btn leftbutton mx-2 " style={{ backgroundColor: "black", color: "white" }} onClick={this.next} >
-                    <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={leftarrow} alt="leftarrow" width="20px" />            </button>
-
+                  <button className="btn leftbutton mx-2 "  onClick={this.next} >
+                  <i class="fa fa-angle-right rightbuttonarr" aria-hidden="true"></i>
+                            </button>
                 </div>
               </div>
             </div>) : (
@@ -303,13 +302,12 @@ class About extends Component {
 
                     <br></br>
                     <button className="btn rightbutton " onClick={this.previous} style={{ borderRadius: "50%", border: "2px solid black" }}>
-                      <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={rightarrow} alt="leftarrow" width="20px" />
-                    </button>
+                  <i class="fa fa-angle-left leftbuttonarr" aria-hidden="true"></i>                  </button>
 
 
-                    <button className="btn leftbutton mx-2 " style={{ backgroundColor: "black", color: "white" }} onClick={this.next} >
-                      <img style={{ marginLeft: "-6px", marginBottom: "14px" }} src={leftarrow} alt="leftarrow" width="20px" />            </button>
-
+                  <button className="btn leftbutton mx-2 "  onClick={this.next} >
+                  <i class="fa fa-angle-right rightbuttonarr" aria-hidden="true"></i>
+                            </button>
                   </div>
                   <div className="col-md-8">
                     <Slider ref={(c) => (this.slider = c)} {...settings}>
