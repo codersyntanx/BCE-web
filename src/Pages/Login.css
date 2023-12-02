@@ -79,6 +79,13 @@ text-transform: capitalize;
     font-size: small;
     font-weight: bold;
 }
+.loginbtn{
+    padding: 20px;
+    width: 100%;
+height: 64px;
+font-size: 18px;
+font-weight: bold;
+}
 @media only screen and (max-width: 768px) {
     .white-truck {
         width: 35%;
@@ -146,6 +153,10 @@ text-transform: capitalize;
     }
     .loginbtn{
         padding: 20px;
+        width: 100%;
+    height: 64px;
+    font-size: 18px;
+    font-weight: bold;
     }
     .newuser{
         margin-top: 20px;

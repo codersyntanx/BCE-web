@@ -26,7 +26,7 @@ function Login(){
                     </div>
                 
                 <b className="float-end forget">Forgot password?</b>
-                 <button className="btn btn-dark loginbtn mt-3" style={{width:"100%"}}>Login</button>
+                 <button className="btn btn-dark loginbtn mt-3">Login</button>
                  <p className="text-center newuser mt-3">New user? <b>Register Account</b></p>
               <div className="d-flex mt-5">
                 <hr className="d-flex loginlin"></hr> &nbsp;&nbsp;&nbsp;<span className="loginwith">or Login with</span>  &nbsp;&nbsp;&nbsp; <hr  className="d-flex loginlin"></hr>
