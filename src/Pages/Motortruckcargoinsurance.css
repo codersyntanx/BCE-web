@@ -7,9 +7,11 @@
     height: 200px;
     position: relative;
     color: white;
+    height: 130px;
 }
 .buttoninsure{
   display: flex;
+  column-gap: 20px;
 }
 .location{
     position: relative;
@@ -38,6 +40,11 @@
 }
 .listitem ul{
     list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.listitem{
+  padding: 0px;
 }
 .homelist {
     height: 300px;
@@ -131,13 +138,11 @@ align-items: flex-start;
 
 
 .insurancebutton{
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   padding: 3%;
   padding-left: 10%;
   padding-right: 10%;
-  margin-bottom: 30px;
-  margin-left: 10px;
   text-align: center;
 }
 .contactfoam{
@@ -150,8 +155,97 @@ align-items: flex-start;
 .contactusfor{
   padding: 20px;
 }
+.mainheading{
+  font-size: 32px;
+    font-weight: bold;
+    width: 537px;
+}
+.secondmainheading{
+  font-size: 32px;
+    font-weight: bold;
+}
+.reasonssection{
+  justify-content: center;
+  margin: auto;
+  /* column-gap: 109px; */
+}
+.firstsectionpara{
+  font-size: 18px;
+  width: 500px;
+}
+.firstmainsection{
+  justify-content: space-between;
+}
+.mainheadsec{
+  width: 85%;
+}
+.widthset{
+  width: 85%;
+}
+
+@media only screen and (max-width: 1024px){
+  .mainheading {
+    font-size: 22px;
+    font-weight: bold;
+    width: 537px;
+}
+.widthset{
+  width: 100%;
+}
+.insurancebutton {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+} 
+
+
+@media only screen and (max-width: 768px){
+  .mainheading {
+    font-size: 18px;
+    font-weight: bold;
+    width: max-content;
+}
+.firstsectionpara {
+  font-size: 16px;
+  width: 350px;
+}
+.insurancebutton {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+}
 
 @media only screen and (max-width: 600px) {
+  .listitem ul{
+    padding: 0px 15px;
+  }
+  .firstsectionpara{
+    width: auto;
+  }
+  .mainheading{
+    width: auto;
+    font-size: 32px;
+  }
+  .widthset{
+    width: 100%;
+  }
+  .location a{
+    font-size: 12px;
+  }
+  .mainheadsec{
+    width: 100%;
+  }
+  .maintopmotor{
+    height: 160px;
+  }
  .contactfoam{
   width: 100%;
   padding-left: 20px;
@@ -174,15 +268,12 @@ align-items: flex-start;
 .buttoninsure button{
   width: 100%;
 }
-
-
-
 .maintitle{
   
   margin-left: 0%;
   margin-top: 10px;
-  font-size: 30px;
- 
+  font-size: 32px;
+ width: 90%;
 }
 .maintitles{
   margin-left: 0%;
@@ -197,7 +288,7 @@ align-items: flex-start;
  
 }
 .smalltext{
-  font-size: 10px;
+  font-size: 16px;
 }
 .insurancebutton{
   font-size: 12px;

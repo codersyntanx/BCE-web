@@ -10,9 +10,9 @@ function Motortruckcargoinsurance() {
     return (
         <>
               
-              <div className="maintopmotor" style={{height:"130px"}}>
-                <div className="container   text-light " style={{width:"85%"}}>
-                    <span className="location  mt-2 pb-4" >
+              <div className="maintopmotor">
+                <div className="container text-light mainheadsec">
+                    <span className="location" >
                     <Link  style={{textDecoration:"none",color:"white"}} to="/">   <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
   <path d="M10.625 14.9298L5.3125 9.18755L10.625 3.44531" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg> Home/ <span  style={{ fontWeight:"550" }}>Motor truck cargo insurance</span></Link>
@@ -24,13 +24,13 @@ function Motortruckcargoinsurance() {
             </div>
 
             <div className="mainbody ">
-                <div className="container pt-5 pb-5" style={{width:"85%"}}>
-                    <div className="row mt-5 customtext">
-                        <div className="col-md-5 ">
+                <div className="container widthset" style={{paddingTop:"24px"}}>
+                    <div className="row mt-5 firstmainsection">
+                        <div className="col-md-5 customtext">
                             <span className="smalltext">We help you at any time</span>
-                            <h5><b>What Is Motor Truck Cargo Insurance?</b></h5>
+                            <p className="mainheading">What Is Motor Truck Cargo Insurance?</p>
                             <img className="mb-3" src={rectangal} alt="image" />
-                            <p className=" p-2 px-0" style={{fontSize:"small"}}>
+                            <p className="firstsectionpara">
                                 Motor Truck Cargo Insurance safeguards trucking companies from financial losses resulting from damage or loss of transported goods. This policy covers cargo against accidents, theft, and unforeseen events. Typically, freight brokers mandate a minimum of $100,000 MTC coverage.
                             </p>
                             <div className="buttoninsure">
@@ -39,7 +39,6 @@ function Motortruckcargoinsurance() {
                             </div>
 
                         </div>
-                        <div className="col-md-1"></div>
                         <div className="col-md-6 p-4 pt-0">
                             <img style={{ width: "100%" ,height:"100%"}} src={Truck} alt="trucimage" />
                         </div>
@@ -55,15 +54,14 @@ function Motortruckcargoinsurance() {
 
 
 {
-    isSmallScreen?(<div className="row mt-1 pb-5" style={{width:"100%"}}>
-    <div className="col-md-1"></div>
+    isSmallScreen?(<div className="row pb-5" style={{width:"100%", margin:"auto"}}>
     
-    <div className="col-md-6 p-4 pt-0 listitem">
+    <div className="col-md-6 listitem">
         <ul>
         <li className="d-flex border-bottom ">
 <i className="fa-regular fa-clock mt-1"></i> &nbsp;&nbsp;&nbsp;
 <div>
-<b>Complete in minutes, all online</b>
+<b style={{fontSize:"20px"}}>Complete in minutes, all online</b>
 <p className="smalltext">Acquire coverage within minutes, not days, through our online platform.</p>
 </div>
 
@@ -72,7 +70,7 @@ function Motortruckcargoinsurance() {
             <li className="d-flex border-bottom mt-5">
             <i class="fa-solid fa-globe mt-1"></i> &nbsp;&nbsp;&nbsp;
 <div>
-<b>Trucking industry especialists</b>
+<b style={{fontSize:"20px"}}>Trucking industry especialists</b>
 <p  className="smalltext">Access coverage 24/7, day or night. With instant access to certificates of insurance once the policy is purchased. </p>
 </div>
 
@@ -81,7 +79,7 @@ function Motortruckcargoinsurance() {
             <li className="d-flex border-bottom mt-5">
            <img src={dollar} alt="dollar" width="50px" height="30px"/> &nbsp;&nbsp;&nbsp;
 <div>
-<b>Competitive rates</b>
+<b style={{fontSize:"20px"}}>Competitive rates</b>
 <p  className="smalltext">We offer competitive rates for all your products and services. Our commitment is to provide the best protection for our customers without compromising quality or value.</p>
 </div>
 
@@ -93,8 +91,7 @@ function Motortruckcargoinsurance() {
         <img width="100%" src={lady} alt="care"/>
     </div>
 </div>):(
-    <div className="row mt-3 pb-5" style={{width:"85%"}}>
-    <div className="col-md-1"></div>
+    <div className="row mt-5 pb-5 reasonssection container" style={{width:"85%", margin:"auto", justifyContent:"center"}}>
     <div className="col-md-5">
         <img width="100%" src={lady} alt="care"/>
     </div>
@@ -103,7 +100,7 @@ function Motortruckcargoinsurance() {
         <li className="d-flex border-bottom ">
 <i className="fa-regular fa-clock mt-1"></i> &nbsp;&nbsp;&nbsp;
 <div>
-<b>Complete in minutes, all online</b>
+<b style={{fontSize:"16px"}}>Complete in minutes, all online</b>
 <p className="smalltext">Acquire coverage within minutes, not days, through our online platform.</p>
 </div>
 
@@ -112,7 +109,7 @@ function Motortruckcargoinsurance() {
             <li className="d-flex border-bottom mt-5">
             <i class="fa-solid fa-globe mt-1"></i> &nbsp;&nbsp;&nbsp;
 <div>
-<b>Trucking industry especialists</b>
+<b style={{fontSize:"16px"}}>Trucking industry especialists</b>
 <p  className="smalltext">Access coverage 24/7, day or night. With instant access to certificates of insurance once the policy is purchased. </p>
 </div>
 
@@ -121,7 +118,7 @@ function Motortruckcargoinsurance() {
             <li className="d-flex border-bottom mt-5">
            <img src={dollar} alt="dollar" width="50px" height="30px"/> &nbsp;&nbsp;&nbsp;
 <div>
-<b>Competitive rates</b>
+<b style={{fontSize:"16px"}}>Competitive rates</b>
 <p  className="smalltext">We offer competitive rates for all your products and services. Our commitment is to provide the best protection for our customers without compromising quality or value.</p>
 </div>
 

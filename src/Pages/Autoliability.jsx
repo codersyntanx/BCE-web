@@ -10,8 +10,8 @@ function Autoliability() {
 
     return (
         <>
-            <div className="maintopmotor " style={{height:"130px"}}>
-                <div className="container   text-light " style={{width:"85%"}}>
+            <div className="maintopmotor">
+                <div className="container text-light mainheadsec">
                     <span className="location" >
                     <Link  style={{textDecoration:"none",color:"white"}} to="/">
    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
@@ -25,13 +25,13 @@ function Autoliability() {
             </div>
 
             <div className="mainbody ">
-                <div className="container pt-5 pb-5" style={{width:"85%"}}>
-                <div className="row mt-5">
+                <div className="container widthset" style={{paddingTop:"24px"}}>
+                <div className="row mt-5 firstmainsection">
                         <div className="col-md-5 customtext ">
                             <span className="smalltext">We help you at any time</span>
-                            <h5><b>What is auto liability insurance?</b></h5>
+                            <p className="mainheading">What is auto liability insurance?</p>
                             <img className="mb-3" src={rectangal} alt="image" />
-                            <p className=" p-2 px-0" style={{fontSize:"small"}}>
+                            <p className="firstsectionpara">
                             Auto liability coverage is vital and required by law. It protects against accident-related injury or damage. Most freight brokers require at least $1,000,000 in coverage, ensuring compliance and peace of mind on the road.
                             </p>
                             <div className="buttoninsure">
@@ -40,20 +40,19 @@ function Autoliability() {
                             </div>
 
                         </div>
-                        <div className="col-md-1"></div>
                         <div className="col-md-6 p-4 pt-0">
                             <img style={{ width: "100%" }} src={group} alt="trucimage" />
                         </div>
                     </div>
                     <div className="text-center mt-5">
                         <span className="smalltext">Do the same as thousands of customers</span>
-<h4><b>3 Reasons for getting auto liability insurance</b></h4>
+<p className="secondmainheading">3 Reasons for getting auto liability insurance</p>
 <img className="mb-3" src={rectangal} alt="image" />
 
                     </div>  </div>
 
 {
-    isSmallScreen?(<div className="row pb-5" style={{width:"100%"}}>
+    isSmallScreen?(<div className="row pb-5" style={{width:"100%", margin: "auto"}}>
  
    
     <div className="col-md-6 listitem ">
@@ -61,7 +60,7 @@ function Autoliability() {
         <li className="d-flex border-bottom ">
 <img src={varify} alt="checked" width="25px" height="25px"/> &nbsp;&nbsp;&nbsp;
 <div>
-<b style={{fontSize:"small"}}>Protects against financial loss in the event of an accident</b>
+<b style={{fontSize:"20px"}}>Protects against financial loss in the event of an accident</b>
 <p className="smalltext">Auto liability insurance covers property damage, medical bills, and legal fees when a trucker is at fault in an accident, providing financial protection and peace of mind.</p>
 </div>
 
@@ -70,7 +69,7 @@ function Autoliability() {
             <li className="d-flex border-bottom mt-3">
             <img src={varify} alt="checked" width="25px" height="25px"/>  &nbsp;&nbsp;&nbsp;
 <div>
-<b  style={{fontSize:"small"}}>Required by law</b>
+<b  style={{fontSize:"20px"}}>Required by law</b>
 <p className="smalltext">Commercial truckers are legally obliged to maintain auto liability insurance. If you possess an MC Authority, the law mandates a minimum if $750,000 Auto Liability Coverage</p>
 </div>
 
@@ -79,7 +78,7 @@ function Autoliability() {
             <li className="d-flex  mt-3">
             <img src={varify} alt="checked" width="25px" height="25px"/>  &nbsp;&nbsp;&nbsp;
 <div>
-<b  style={{fontSize:"small"}}>Protects against lawsuits</b>
+<b  style={{fontSize:"20px"}}>Protects against lawsuits</b>
 <p className="smalltext">Auto liability insurance assists truckers facing lawsuits after accidents, covering legal fees and awarded damages, offering financial protection and peace of mind.</p>
 </div>
 
@@ -91,8 +90,7 @@ function Autoliability() {
         <img width="100%"  src={smile} alt="care"/>
     </div>
 </div>):(
-        <div className="row mt-5 pb-5" style={{width:"85%"}}>
-        <div className="col-md-1"></div>
+        <div className="row mt-5 pb-5 reasonssection container">
         <div className="col-md-5">
             <img width="100%"  src={smile} alt="care"/>
         </div>
@@ -101,7 +99,7 @@ function Autoliability() {
             <li className="d-flex border-bottom ">
 <img src={varify} alt="checked" width="25px" height="25px"/> &nbsp;&nbsp;&nbsp;
 <div>
-    <b style={{fontSize:"small"}}>Protects against financial loss in the event of an accident</b>
+    <b style={{fontSize:"16px"}}>Protects against financial loss in the event of an accident</b>
     <p className="smalltext">Auto liability insurance covers property damage, medical bills, and legal fees when a trucker is at fault in an accident, providing financial protection and peace of mind.</p>
 </div>
 
@@ -110,7 +108,7 @@ function Autoliability() {
                 <li className="d-flex border-bottom mt-3">
                 <img src={varify} alt="checked" width="25px" height="25px"/>  &nbsp;&nbsp;&nbsp;
 <div>
-    <b  style={{fontSize:"small"}}>Required by law</b>
+    <b  style={{fontSize:"16px"}}>Required by law</b>
     <p className="smalltext">Commercial truckers are legally obliged to maintain auto liability insurance. If you possess an MC Authority, the law mandates a minimum if $750,000 Auto Liability Coverage</p>
 </div>
 
@@ -119,7 +117,7 @@ function Autoliability() {
                 <li className="d-flex  mt-3">
                 <img src={varify} alt="checked" width="25px" height="25px"/>  &nbsp;&nbsp;&nbsp;
 <div>
-    <b  style={{fontSize:"small"}}>Protects against lawsuits</b>
+    <b  style={{fontSize:"16px"}}>Protects against lawsuits</b>
     <p className="smalltext">Auto liability insurance assists truckers facing lawsuits after accidents, covering legal fees and awarded damages, offering financial protection and peace of mind.</p>
 </div>
 
