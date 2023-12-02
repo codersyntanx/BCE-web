@@ -248,6 +248,9 @@
   .homebody{
   overflow-x: hidden;
 }
+.bordernew {
+  border-right:none;
+}
   .homebuttons,
   .herotext,
   .portfolio {
