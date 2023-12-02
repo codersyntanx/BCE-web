@@ -1,11 +1,10 @@
 .herosection {
   background-image: url(../Assets/images/world\ blob.jpg);
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
   margin-top: 40px;
-  width: 85%;
+  width: 80%;
 
 }
 .homeparentdiv{

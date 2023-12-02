@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import logo from "../Assets/images/g10.png"
+import logo from "./logo/logo.svg"
 import { Link } from "react-router-dom"
-import logo2 from "../Assets/images/SEM NOME 6.png"
+import logo2 from "./logo/mobile_logo.svg"
 function Navbar() {
   const [menuClicked, setMenuClicked] = useState(false);
 
@@ -46,7 +46,7 @@ function Navbar() {
         <div className="container-fluid">
           <Link className="navbar-brand text-light" to="/">
             {
-              menuClicked ? (<img src={logo2} alt="logo" width="100px" />) : (<img src={logo} alt="logo" width="100px" />)
+              menuClicked ? (<img src={logo2} alt="logo" width="120px" />) : (<img src={logo} alt="logo" width="120px" />)
             }
 
           </Link>
