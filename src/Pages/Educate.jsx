@@ -186,7 +186,7 @@ const Educate = () => {
 
 
     return (
-      <div className="container-fluid mx-auto" style={{ height: "auto" }}>
+      <div className=" mx-auto" style={{ height: "auto" }}>
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="slider-item">

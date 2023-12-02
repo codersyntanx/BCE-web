@@ -8,17 +8,29 @@
   width: 85%;
 
 }
+.leftbuttonarr{
+  position: relative;
+  bottom: 3px;
+  right: 3px;
+}
+.rightbuttonarr{
+  position: relative;
+  bottom: 3px;
+  right: 1px;
+  color: black;
+ 
+}
 .rightbutton{
   color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
 }
-.leftbutton:hover{
-background-color: black;
-}
-.leftbutton{
-  background-color:inherit;
-  }
+
+
 .rightbutton:hover{
   background-color: black;
+  color: white;
   }
 .homebutton {
   background-color: inherit;
@@ -96,22 +108,22 @@ background-color: black;
   border-radius: 10px;
   margin-left: 15px;
 }
-
-.leftbutton:hover {
+.leftbutton:hover{
   background-color: black;
   color: white;
-}
+  }
+  .leftbutton:hover .rightbuttonarr{
+    color: white;
+  }
 
 .leftbutton {
- background-image: url(../Assets/images/CaretDown.png);
- background-position: center;
- background-size: 20px;
- background-repeat: no-repeat;
+
   border-radius: 50%;
   border: 2px solid black;
-  height: auto;
+  color: black;
   width: 35px;
   height: 35px;
+  font-size: larger;
 }
 
 .rightbutton {
@@ -119,6 +131,7 @@ background-color: black;
   border: 1px solid black;
   width: 35px;
   height: 35px;
+  color: black;
 }
 
 .educate {

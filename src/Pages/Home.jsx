@@ -197,9 +197,8 @@ function Home() {
 
 
 
-        <div className="container">
+        
           <Educate />
-        </div>
 
 
 
