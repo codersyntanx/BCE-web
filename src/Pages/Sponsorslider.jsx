@@ -53,18 +53,18 @@ class Sponsorslider extends React.Component {
     
 
     return (
-      <div className="sponsor border-bottom ">
-        <div className="container ">
+      <div className=" border-bottom ">
+        <div className="container-fluid sponsor">
           <div className="row d-flex p-5">
             <div
               className="col-md-3 text-center mb-4  "
-              style={{ borderRight: "1px solid grey" }}
+             
             >
               <span className='security'  >
                 The best security
                 <br />
-                <span style={{ fontSize: "22px", lineHeight: "0.4" }}>
-                  <b>Main partners</b>
+                <span className='mb-2' style={{ fontSize: "22px", lineHeight: "0.4" }}>
+                  <b className='border-bottom pb-3'>Main partners</b>
                 </span>
               </span>
             </div>

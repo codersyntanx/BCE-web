@@ -39,7 +39,7 @@ function Home () {
             </div>
            
             <h2 className="mt-4 headertext">
-              <b>The Easiest Way To Buy<br></br> And Manage Trucking Insurance</b>
+              <b>The Easiest Way To Buy And Manage Trucking Insurance</b>
              
             </h2>
             <p className="herotext" style={{ fontSize: "small", color: "grey" }}>Talk to our experts and get all your questions<br></br> answered and get a no-obligation quote</p>
@@ -71,7 +71,7 @@ function Home () {
           <div className="col-md-2"></div>
          
           <div className="col-md-5  col-sm-12">
-                  <div class="p-3 px-4 contactfoamer"style={{backgroundColor:"white",position:"relative",top:"5%", boxShadow:"0 2px 4px rgba(0,0,0,.1)"}} >
+                  <div class="p-3 px-4 contactfoamer" >
     <h5 className="text-dark"><b>Get a quote right now</b></h5>
     <span style={{color:"grey"}}>Sign up and our team will contact you to provide your quote</span>
  
@@ -99,10 +99,10 @@ function Home () {
         <Sponsorslider />
         <div className="text-center mx-auto mt-5" style={{width:"85%"}}>
           <span className="smalltext">The best insurance companies are with us</span>
-          <h3><b>Get Instant Quotes Online Today!</b></h3>
+          <h3 className="heading"><b>Get Instant Quotes Online Today!</b></h3>
           <img src={rectangal} alt="image" />
 
-          <p style={{fontSize:"small",color:"grey"}}>Get in touch with an expert who can guide you through the intricacies<br></br> of trucking insurance and leverage a contemporary platform to<br></br> increase the efficiency of your business.</p>
+          <p className="topicdescription">Get in touch with an expert who can guide you through the intricacies<br></br> of trucking insurance and leverage a contemporary platform to<br></br> increase the efficiency of your business.</p>
         </div>
 
         <div className="container">
@@ -112,10 +112,9 @@ function Home () {
         <div className="trucking">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-4 imgcontainer" style={{ height:"350px"}}>
-                {/* <img src={truckdrive} width="100%" height="350px" alt="trucsite" /> */}
+              <div className="col-md-4 imgcontainer" >
               </div>
-              <div className="col-md-8 px-5">
+              <div className="col-md-8 px-5 ">
                 <p className="mt-3" style={{ fontSize: "20px" }}>Talk to a trucking insurance specialist</p>
                 <p style={{ fontSize: "small", color: "grey" }}>Our in-house team includes former truckers who understand the challenges of the industry.<br></br> Reach out today for dedicated support from an agent who specializes in truck insurance.</p>
                 <div className=" phoneboxcon mt-4">
@@ -130,7 +129,7 @@ function Home () {
                     <span>operations@bceins.com</span>
                   </div>
                 </div>
-                <div className="mt-5 d-flex align-items-center">
+                <div className="mt-5 d-flex align-items-center mb-3">
       <img src={medal} alt="medal" width="25px"/> &nbsp;&nbsp;      <span style={{fontSize:"small"}}>
         Have the best insurance in your hands right now,
         <b>Get your quote <i className="fa-solid fa-arrow-right"></i></b>
@@ -201,77 +200,7 @@ function Home () {
 </div>
 
 
-      {/* <div className="container-fluid mx-auto "  style={{width:"95%"}}>
-        <div className="row justify-content-center mt-3" style={{gap:"20px"}}>
-          <div className="col-md-3 p-3 educate"  >
-         <h1 style={{fontWeight:"700"}}>1</h1>
-         <b>Educate</b>
-         <div className="mt-3">
-<span  style={{fontSize:"small",color:"grey"}}>
-         Access valuable educational resources<br></br> shared by industry veterans who are<br></br> former trucking company owners.
-         </span>
-
-         </div>
-         
-         <div className="d-flex mt-5 align-items-center ">
-          <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Implement top safety measures</span>
-         </div>
-         <div className="d-flex mt-3  align-items-center">
-         <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Implement top safety measures</span>
-         </div>
-         <div className="d-flex mt-3  align-items-center">
-         <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Implement top safety measures</span>
-         </div>
-          </div>
-          <div className="col-md-3 p-3 educate "  >
-         <h1 style={{fontWeight:"700"}}>2</h1>
-         <b>Quote</b>
-         <div className="mt-3">
-<span  style={{fontSize:"small",color:"grey"}}>
-Have it on hand  the best quotes shared by industry veterans who are former trucking company owners.         </span>
-
-         </div>
-         
-         <div className="d-flex mt-5 align-items-center">
-          <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Get a quote within 5 minutes</span>
-         </div>
-         <div className="d-flex mt-3  align-items-center">
-         <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Explore options with numerous carriers</span>
-         </div>
-         <div className="d-flex mt-3  align-items-center">
-         <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Buy only what’s essential for your needs</span>
-         </div>
-          </div>
-          <div className="col-md-3 p-3 educate align-items-center"  >
-         <h1 style={{fontWeight:"700"}}>3</h1>
-         <b>Purchase</b>
-         <div className="mt-3">
-<span  style={{fontSize:"small",color:"grey"}}>
-Acquire insurance that offers top-notch coverage at the most competitive rate, and you can always reach out to our knowledgeable agents         </span>
-
-         </div>
-         
-         <div className="d-flex mt-5 align-items-center">
-          <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Purchase coverage using our flexible payment choices</span>
-         </div>
-         <div className="d-flex mt-3  align-items-center">
-         <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Obtain competitive rates tailored to your situation</span>
-         </div>
-         <div className="d-flex mt-3  align-items-center">
-         <img src={greencheck} width="30px" alt="check"/> &nbsp; <span style={{fontWeight:"bold",fontSize:"small"}}>Secure coverage that permits you to collaborate with any broketr.</span>
-         </div>
-          </div>
-        </div>
-        <div className="justify-content-center align-items-center d-flex mt-4"style={{fontSize:"small"}}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
-  <path d="M16 22.5C21.5228 22.5 26 18.0228 26 12.5C26 6.97715 21.5228 2.5 16 2.5C10.4772 2.5 6 6.97715 6 12.5C6 18.0228 10.4772 22.5 16 22.5Z" stroke="#002244" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16 18.5C19.3137 18.5 22 15.8137 22 12.5C22 9.18629 19.3137 6.5 16 6.5C12.6863 6.5 10 9.18629 10 12.5C10 15.8137 12.6863 18.5 16 18.5Z" stroke="#002244" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M22 20.5V30.5L16 27.5L10 30.5V20.5" stroke="#002244" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg><span> Have the best insurance in your hands right now,<b>Get your quote <i class="fa-solid fa-arrow-right"></i></b> </span>
-
-        </div>
-
-      </div> */}
+      
     
     
     <Testonomials/>

@@ -25,7 +25,7 @@ const ScrollAble = () => {
 
 
   return (
-    <div className="container" style={{width:"90%"}}>
+    <div className="scrollercontainer" >
       <div className="row mt-5">
         <div className="col-md-1 scroller   ">
     <div className='mainscroll' >
@@ -64,21 +64,21 @@ const ScrollAble = () => {
                  <li className="d-flex border-bottom ">
                   <img src={note} alt="checked" width="25px" height="25px" /> &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="heading">Instante certificates of insurance</span>
+                    <span className="pointsheading">Instante certificates of insurance</span>
                     <p className="smalltext">We offer instant certificates of insurance for all your products and services. This means you can get the insurance coverage you need quickly and easily, without having to wait days or weeks to receive your certificate.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={Browser} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="heading">Shop with multiple insurance companies and 24/7 policy management</span>
+                    <span className="pointsheading">Shop with multiple insurance companies and 24/7 policy management</span>
                     <p className="smalltext">We offer you the ability to purchase insurance with multiple insurance companies. This means you can compare offers from different insurers to find the best coverage and price for your needs.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={varify} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="heading">DOT Compliance assistance</span>
+                    <span className="pointsheading">DOT Compliance assistance</span>
                     <p className="smalltext">We offer DOT compliance assistance to help businesses comply with DOT regulations. Our team of experts can help you in the best way possible</p>
                   </div>
                 </li>
@@ -88,21 +88,21 @@ const ScrollAble = () => {
                  <li className="d-flex border-bottom ">
                   <img src={call} alt="checked" width="25px" height="25px" /> &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="heading">Connect with a live agent</span>
+                    <span className="pointsheading">Connect with a live agent</span>
                     <p className="smalltext">We offer the option to connect with a live agent 24/7.Our agents are experienced and qualified and are ready to help you with any questions or problems you may have.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={jeep} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="heading">Trucking industry especialists</span>
+                    <span className="pointsheading">Trucking industry especialists</span>
                     <p className="smalltext">We have a team of experts with extensive experience in the sector, who are prepared to offer the best solutions to their customers' needs.</p>
                   </div>
                 </li>
                 <li className="d-flex border-bottom mt-2">
                   <img src={dollar} alt="checked" width="25px" height="25px" />  &nbsp;&nbsp;&nbsp;
                   <div>
-                    <span className="heading">Competitive rates</span>
+                    <span className="pointsheading">Competitive rates</span>
                     <p className="smalltext">We offer competitive rates for all your products and services. Our commitment is to provide the best protection for our customers without compromising quality or value.</p>
                   </div>
                 </li>

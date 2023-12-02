@@ -37,6 +37,7 @@ margin-top: 100px;
     background-image: url(../Assets/images/truckman\ \ \(1\).png);
 background-repeat: no-repeat;
 background-size: cover;
+height: 350px;
 }
 
 .phoneboxcon{
@@ -133,7 +134,7 @@ border-radius: 10px;
   .mainscroll {
     border-radius: 10px;
     background-color: rgb(209, 209, 209);
-    height: 240px;
+    height: 300px;
     width: 5px;
     transition: top 1s ease; /* Add transition for the 'top' property */
   }
@@ -176,13 +177,24 @@ border-radius: 10px;
   color: black;
 }
 .customerbutton{
-  padding: 16px;
+  padding: 14px;
 }
 .signupinputs{
-  height: 60px;
+  height: 50px;
+  color: black;
 }
 .contactfoamer{
   border-radius: 20px;
+  background-color: white;
+  position: relative;
+  top: 5%;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);
+}
+.headertext{
+  font-size: 40px;
+}
+.herotext{
+  font-size: 20px;
 }
   /* Media Query styles */
   @media only screen and (max-width: 600px) {
@@ -191,7 +203,10 @@ border-radius: 10px;
     .portfolio {
       display: none;
     }
- 
+
+ .sponsor{
+  width: 100%;
+ }
     .lineimage{
       display: none;
     }
@@ -200,11 +215,10 @@ border-radius: 10px;
     .herosection{
       margin-top: 0px;
       width: 100%;
-    height: 550;   
+   
+   
     }
-    .sponsor{
-      margin-top: 300px;
-    }
+ 
     .customtextce{
       margin-left: 55px;
     }
