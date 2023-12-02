@@ -26,7 +26,7 @@ function Contactus() {
         <div className="contactusbody pt-5 ">
           <div className=" contactfoam " >
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 ps-5">
                 <h1 style={{ fontWeight: "bold", fontSize: "35px" }}>Get in touch<br></br> with us</h1>
                 <div className="mt-5">
                   <span style={{ fontWeight: "bold" }}>Find us at</span><br></br>
@@ -40,7 +40,7 @@ function Contactus() {
                 </div>
 
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 custactcolum ">
                 <div class="contactusfor " style={{ backgroundColor: "white", position: "relative", top: "60px" }} >
 
                   <h5 className="text-dark"><b>Contact us</b></h5>

@@ -9,6 +9,9 @@
   color: white;
   height: 130px;
 }
+.custactcolum{
+  padding-right: 40px;
+}
 
 .buttoninsure {
   display: flex;
@@ -161,9 +164,9 @@
 
 .contactfoam {
   width: 85%;
-  padding-left: 40px;
+  
   padding-top: 40px;
-  padding-right: 40px;
+ 
   margin: auto;
 }
 
@@ -261,6 +264,9 @@
   .listitem ul {
     padding: 0px 15px;
   }
+  .custactcolum{
+    padding-right: 0px;
+  }
 .contactfoam{
   position: relative;
   height: 750px;
@@ -268,6 +274,7 @@
   .firstsectionpara {
     width: auto;
   }
+ 
 
   .mainheading {
     width: auto;
@@ -291,10 +298,11 @@
   }
 
   .contactfoam {
-    width: 96%;
-    padding-left: 20px;
+    width: 99%;
+  
     padding-top: 20px;
     padding-right: 10px;
+
   }
 
   .centeralign {
