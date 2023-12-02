@@ -254,10 +254,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .smallscreenpadding{
+    padding-top: 200px !important;
+  }
   .listitem ul {
     padding: 0px 15px;
   }
-
+.contactfoam{
+  position: relative;
+  height: 750px;
+}
   .firstsectionpara {
     width: auto;
   }

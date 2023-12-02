@@ -68,7 +68,7 @@ function Contactus() {
           </div>
         </div>
 
-        <div className="text-center centeralign mt-5">
+        <div className="text-center centeralign mt-5 smallscreenpadding">
           <span className="smalltext">Got questions? We have answers!</span>
           <h3><b>Frequently asked questions</b></h3>
           <img src={rectangal} alt="line" />
